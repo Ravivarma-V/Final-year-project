@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Traditional Fashion Recommendations</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/styles.css') }}">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <style>
+        .cultural-significance {
+            background-color: #f8f9fa;
+            border-left: 4px solid #28a745;
+            padding: 10px 15px;
+            margin-top: 10px;
+            border-radius: 0 4px 4px 0;
+        }
+        .recommendation-item {
+            margin-bottom: 15px;
+            padding-bottom: 15px;
+            border-bottom: 1px dashed #dee2e6;
+        }
+        .recommendation-item:last-child {
+            border-bottom: none;
+        }
+    </style>
+</head>
+<body>
+    <div class="container my-5">
+        <h1 class="text-center mb-4">Your Traditional Fashion Recommendations</h1>
+        
+        <div class="row justify-content-center mb-4">
+            <div class="col-md-8">
+                <div class="card">
+                    <div class="card-header bg-primary text-white">
+                        <h3 class="card-title mb-0">Your Information</h3>
+                    </div>
+                    <div class="card-body">
+                        <div class="row">
+                            <div class="col-md-4 text-center">
+                                <div class="info-item">
+                                    <h5>Gender</h5>
+                                    <p>{{ context.gender|title }}</p>
+                                </div>
+                            </div>
+                            <div class="col-md-4 text-center">
+                                <div class="info-item">
+                                    <h5>Cultural Context</h5>
+                                    <p>{{ context.cultural_context|title }}</p>
+                                </div>
+                            </div>
+                            <div class="col-md-4 text-center">
+                                <div class="info-item">
+                                    <h5>Event Type</h5>
+                                    <p>{{ context.event_type|replace('_', ' ')|title }}</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="row">
+            <div class="col-md-6">
+                <div class="card mb-4">
+                    <div class="card-header bg-success text-white">
+                        <h3 class="card-title mb-0"><i class="fas fa-tshirt me-2"></i>Main Garments</h3>
+                    </div>
+                    <div class="card-body">
+                        {% for item in recommendations.main_garments %}
+                            <div class="recommendation-item">
+                                <h5>{{ item.name }}</h5>
+                                <p>{{ item.description }}</p>
+                                <div class="cultural-significance">
+                                    <h6><i class="fas fa-info-circle me-2"></i>Cultural Significance</h6>
+                                    <p>{{ item.cultural_significance }}</p>
+                                </div>
+                            </div>
+                        {% endfor %}
+                    </div>
+                </div>
+                
+                <div class="card mb-4">
+                    <div class="card-header bg-success text-white">
+                        <h3 class="card-title mb-0"><i class="fas fa-palette me-2"></i>Color Recommendations</h3>
+                    </div>
+                    <div class="card-body">
+                        {% for item in recommendations.color_recommendations %}
+                            <div class="recommendation-item">
+                                <h5>{{ item.color }}</h5>
+                                <div class="cultural-significance">
+                                    <h6><i class="fas fa-info-circle me-2"></i>Cultural Significance</h6>
+                                    <p>{{ item.significance }}</p>
+                                </div>
+                            </div>
+                        {% endfor %}
+                    </div>
+                </div>
+            </div>
+            
+            <div class="col-md-6">
+                <div class="card mb-4">
+                    <div class="card-header bg-success text-white">
+                        <h3 class="card-title mb-0"><i class="fas fa-gem me-2"></i>Accessories</h3>
+                    </div>
+                    <div class="card-body">
+                        {% for item in recommendations.accessories %}
+                            <div class="recommendation-item">
+                                <h5>{{ item.name }}</h5>
+                                <p>{{ item.description }}</p>
+                                <div class="cultural-significance">
+                                    <h6><i class="fas fa-info-circle me-2"></i>Cultural Significance</h6>
+                                    <p>{{ item.cultural_significance }}</p>
+                                </div>
+                            </div>
+                        {% endfor %}
+                    </div>
+                </div>
+                
+                <div class="card mb-4">
+                    <div class="card-header bg-success text-white">
+                        <h3 class="card-title mb-0"><i class="fas fa-lightbulb me-2"></i>Styling Tips</h3>
+                    </div>
+                    <div class="card-body">
+                        <ul class="list-group list-group-flush">
+                            {% for tip in recommendations.styling_tips %}
+                                <li class="list-group-item">{{ tip }}</li>
+                            {% endfor %}
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="row">
+            <div class="col-12">
+                <div class="card mb-4">
+                    <div class="card-header bg-info text-white">
+                        <h3 class="card-title mb-0"><i class="fas fa-book me-2"></i>Cultural Etiquette</h3>
+                    </div>
+                    <div class="card-body">
+                        <div class="alert alert-info">
+                            <i class="fas fa-info-circle me-2"></i>
+                            <strong>Important:</strong> Understanding cultural etiquette is essential when wearing traditional attire.
+                        </div>
+                        <ul class="list-group list-group-flush">
+                            {% for etiquette in recommendations.cultural_etiquette %}
+                                <li class="list-group-item">{{ etiquette }}</li>
+                            {% endfor %}
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="row justify-content-center mt-4">
+            <div class="col-md-8 text-center">
+                <a href="{{ url_for('index') }}" class="btn btn-primary me-3">
+                    <i class="fas fa-arrow-left me-2"></i>Back to Form
+                </a>
+                <button id="print-btn" class="btn btn-secondary ms-3" onclick="window.print()">
+                    <i class="fas fa-print me-2"></i>Print
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

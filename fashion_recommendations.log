@@ -1,0 +1,670 @@
+2025-03-15 21:13:12,706 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-03-15 21:13:12,707 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-03-15 21:13:12,709 - werkzeug - INFO -  * Restarting with stat
+2025-03-15 21:13:14,428 - werkzeug - WARNING -  * Debugger is active!
+2025-03-15 21:13:14,441 - werkzeug - INFO -  * Debugger PIN: 133-299-548
+2025-03-15 21:13:24,848 - werkzeug - INFO - 127.0.0.1 - - [15/Mar/2025 21:13:24] "GET /?ide_webview_request_time=1742053404832 HTTP/1.1" 200 -
+2025-03-15 21:13:24,944 - werkzeug - INFO - 127.0.0.1 - - [15/Mar/2025 21:13:24] "GET /static/css/style.css HTTP/1.1" 200 -
+2025-03-15 21:13:24,945 - werkzeug - INFO - 127.0.0.1 - - [15/Mar/2025 21:13:24] "GET /static/js/script.js HTTP/1.1" 200 -
+2025-03-15 23:00:31,291 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-03-15 23:00:31,292 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-03-15 23:00:31,294 - werkzeug - INFO -  * Restarting with stat
+2025-03-15 23:00:33,034 - werkzeug - WARNING -  * Debugger is active!
+2025-03-15 23:00:33,038 - werkzeug - INFO -  * Debugger PIN: 133-299-548
+2025-03-15 23:00:38,076 - werkzeug - INFO - 127.0.0.1 - - [15/Mar/2025 23:00:38] "[33mGET / HTTP/1.1[0m" 404 -
+2025-03-15 23:00:38,405 - werkzeug - INFO - 127.0.0.1 - - [15/Mar/2025 23:00:38] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-03-15 23:00:47,321 - werkzeug - INFO - 127.0.0.1 - - [15/Mar/2025 23:00:47] "[33mGET / HTTP/1.1[0m" 404 -
+2025-03-15 23:00:47,565 - werkzeug - INFO - 127.0.0.1 - - [15/Mar/2025 23:00:47] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-03-15 23:01:03,681 - werkzeug - INFO - 127.0.0.1 - - [15/Mar/2025 23:01:03] "[33mGET / HTTP/1.1[0m" 404 -
+2025-03-15 23:01:03,909 - werkzeug - INFO - 127.0.0.1 - - [15/Mar/2025 23:01:03] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-03-15 23:01:41,325 - werkzeug - INFO -  * Detected change in 'd:\\Tare\\Project\\AI-chatbox\\app.py', reloading
+2025-03-15 23:01:41,665 - werkzeug - INFO -  * Restarting with stat
+2025-03-15 23:01:43,481 - werkzeug - WARNING -  * Debugger is active!
+2025-03-15 23:01:43,483 - werkzeug - INFO -  * Debugger PIN: 133-299-548
+2025-03-15 23:01:51,065 - werkzeug - INFO - 127.0.0.1 - - [15/Mar/2025 23:01:51] "[33mGET / HTTP/1.1[0m" 404 -
+2025-03-15 23:02:09,873 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-03-15 23:02:09,874 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-03-15 23:02:09,875 - werkzeug - INFO -  * Restarting with stat
+2025-03-15 23:02:11,248 - werkzeug - WARNING -  * Debugger is active!
+2025-03-15 23:02:11,250 - werkzeug - INFO -  * Debugger PIN: 133-299-548
+2025-03-15 23:02:18,523 - werkzeug - INFO - 127.0.0.1 - - [15/Mar/2025 23:02:18] "[33mGET /?ide_webview_request_time=1742059938455 HTTP/1.1[0m" 404 -
+2025-03-15 23:03:02,460 - werkzeug - INFO -  * Detected change in 'd:\\Tare\\Project\\AI-chatbox\\app.py', reloading
+2025-03-15 23:03:02,736 - werkzeug - INFO -  * Restarting with stat
+2025-03-15 23:03:04,906 - werkzeug - WARNING -  * Debugger is active!
+2025-03-15 23:03:04,908 - werkzeug - INFO -  * Debugger PIN: 133-299-548
+2025-03-15 23:03:08,065 - werkzeug - INFO - 127.0.0.1 - - [15/Mar/2025 23:03:08] "[33mGET / HTTP/1.1[0m" 404 -
+2025-03-15 23:03:08,375 - werkzeug - INFO - 127.0.0.1 - - [15/Mar/2025 23:03:08] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-03-15 23:03:16,963 - werkzeug - INFO -  * Detected change in 'd:\\Tare\\Project\\AI-chatbox\\app.py', reloading
+2025-03-15 23:03:17,202 - werkzeug - INFO -  * Restarting with stat
+2025-03-15 23:03:18,686 - werkzeug - WARNING -  * Debugger is active!
+2025-03-15 23:03:18,688 - werkzeug - INFO -  * Debugger PIN: 133-299-548
+2025-03-15 23:03:19,703 - werkzeug - INFO -  * Detected change in 'd:\\Tare\\Project\\AI-chatbox\\app.py', reloading
+2025-03-15 23:03:20,059 - werkzeug - INFO -  * Restarting with stat
+2025-03-15 23:03:21,826 - werkzeug - WARNING -  * Debugger is active!
+2025-03-15 23:03:21,828 - werkzeug - INFO -  * Debugger PIN: 133-299-548
+2025-03-15 23:03:32,598 - werkzeug - INFO - 127.0.0.1 - - [15/Mar/2025 23:03:32] "[33mGET / HTTP/1.1[0m" 404 -
+2025-03-15 23:03:32,811 - werkzeug - INFO - 127.0.0.1 - - [15/Mar/2025 23:03:32] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-03-15 23:03:53,659 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-03-15 23:03:53,659 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-03-15 23:03:53,661 - werkzeug - INFO -  * Restarting with stat
+2025-03-15 23:03:55,511 - werkzeug - WARNING -  * Debugger is active!
+2025-03-15 23:03:55,514 - werkzeug - INFO -  * Debugger PIN: 133-299-548
+2025-03-15 23:03:58,987 - werkzeug - INFO - 127.0.0.1 - - [15/Mar/2025 23:03:58] "GET / HTTP/1.1" 200 -
+2025-03-15 23:03:59,085 - werkzeug - INFO - 127.0.0.1 - - [15/Mar/2025 23:03:59] "GET /static/css/style.css HTTP/1.1" 200 -
+2025-03-15 23:03:59,245 - werkzeug - INFO - 127.0.0.1 - - [15/Mar/2025 23:03:59] "GET /static/js/script.js HTTP/1.1" 200 -
+2025-03-15 23:04:00,268 - werkzeug - INFO - 127.0.0.1 - - [15/Mar/2025 23:04:00] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-03-15 23:04:02,084 - werkzeug - INFO - 127.0.0.1 - - [15/Mar/2025 23:04:02] "GET /?ide_webview_request_time=1742060042058 HTTP/1.1" 200 -
+2025-03-15 23:04:02,154 - werkzeug - INFO - 127.0.0.1 - - [15/Mar/2025 23:04:02] "GET /static/css/style.css HTTP/1.1" 200 -
+2025-03-15 23:04:02,161 - werkzeug - INFO - 127.0.0.1 - - [15/Mar/2025 23:04:02] "GET /static/js/script.js HTTP/1.1" 200 -
+2025-03-15 23:05:00,525 - __main__ - INFO - Image saved successfully: d:\Tare\Project\AI-chatbox\static/images/uploads\20250315_230500_03be0cb3.jpg
+2025-03-15 23:05:04,750 - __main__ - INFO - Skin tone detected: medium
+2025-03-15 23:05:04,752 - framework - ERROR - Error generating recommendations: framework.FashionRecommendation() argument after ** must be a mapping, not NoneType
+2025-03-15 23:05:04,753 - __main__ - ERROR - Unexpected error: framework.FashionRecommendation() argument after ** must be a mapping, not NoneType
+2025-03-15 23:05:04,757 - werkzeug - INFO - 127.0.0.1 - - [15/Mar/2025 23:05:04] "[32mPOST /get_recommendations HTTP/1.1[0m" 302 -
+2025-03-15 23:05:04,778 - werkzeug - INFO - 127.0.0.1 - - [15/Mar/2025 23:05:04] "GET / HTTP/1.1" 200 -
+2025-03-15 23:05:05,101 - werkzeug - INFO - 127.0.0.1 - - [15/Mar/2025 23:05:05] "GET / HTTP/1.1" 200 -
+2025-03-15 23:05:05,138 - werkzeug - INFO - 127.0.0.1 - - [15/Mar/2025 23:05:05] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-03-15 23:05:05,351 - werkzeug - INFO - 127.0.0.1 - - [15/Mar/2025 23:05:05] "[36mGET /static/js/script.js HTTP/1.1[0m" 304 -
+2025-03-15 23:05:15,913 - werkzeug - INFO - 127.0.0.1 - - [15/Mar/2025 23:05:15] "GET / HTTP/1.1" 200 -
+2025-03-15 23:05:15,957 - werkzeug - INFO - 127.0.0.1 - - [15/Mar/2025 23:05:15] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-03-15 23:05:16,179 - werkzeug - INFO - 127.0.0.1 - - [15/Mar/2025 23:05:16] "[36mGET /static/js/script.js HTTP/1.1[0m" 304 -
+2025-03-15 23:05:28,416 - framework - ERROR - Error generating recommendations: framework.FashionRecommendation() argument after ** must be a mapping, not NoneType
+2025-03-15 23:05:28,417 - __main__ - ERROR - Unexpected error: framework.FashionRecommendation() argument after ** must be a mapping, not NoneType
+2025-03-15 23:05:28,419 - werkzeug - INFO - 127.0.0.1 - - [15/Mar/2025 23:05:28] "[32mPOST /get_recommendations HTTP/1.1[0m" 302 -
+2025-03-15 23:05:28,675 - werkzeug - INFO - 127.0.0.1 - - [15/Mar/2025 23:05:28] "GET / HTTP/1.1" 200 -
+2025-03-15 23:05:28,742 - werkzeug - INFO - 127.0.0.1 - - [15/Mar/2025 23:05:28] "GET / HTTP/1.1" 200 -
+2025-03-15 23:05:29,002 - werkzeug - INFO - 127.0.0.1 - - [15/Mar/2025 23:05:29] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-03-15 23:05:29,090 - werkzeug - INFO - 127.0.0.1 - - [15/Mar/2025 23:05:29] "[36mGET /static/js/script.js HTTP/1.1[0m" 304 -
+2025-03-15 23:05:48,251 - framework - ERROR - Error generating recommendations: framework.FashionRecommendation() argument after ** must be a mapping, not NoneType
+2025-03-15 23:05:48,252 - __main__ - ERROR - Unexpected error: framework.FashionRecommendation() argument after ** must be a mapping, not NoneType
+2025-03-15 23:05:48,254 - werkzeug - INFO - 127.0.0.1 - - [15/Mar/2025 23:05:48] "[32mPOST /get_recommendations HTTP/1.1[0m" 302 -
+2025-03-15 23:05:48,572 - werkzeug - INFO - 127.0.0.1 - - [15/Mar/2025 23:05:48] "GET / HTTP/1.1" 200 -
+2025-03-15 23:05:48,830 - werkzeug - INFO - 127.0.0.1 - - [15/Mar/2025 23:05:48] "GET / HTTP/1.1" 200 -
+2025-03-15 23:05:48,907 - werkzeug - INFO - 127.0.0.1 - - [15/Mar/2025 23:05:48] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-03-15 23:05:49,200 - werkzeug - INFO - 127.0.0.1 - - [15/Mar/2025 23:05:49] "[36mGET /static/js/script.js HTTP/1.1[0m" 304 -
+2025-03-15 23:07:02,800 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-03-15 23:07:02,801 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-03-15 23:07:02,802 - werkzeug - INFO -  * Restarting with stat
+2025-03-15 23:07:04,526 - werkzeug - WARNING -  * Debugger is active!
+2025-03-15 23:07:04,531 - werkzeug - INFO -  * Debugger PIN: 133-299-548
+2025-03-15 23:07:07,152 - werkzeug - INFO - 127.0.0.1 - - [15/Mar/2025 23:07:07] "GET /?ide_webview_request_time=1742060227135 HTTP/1.1" 200 -
+2025-03-15 23:07:07,234 - werkzeug - INFO - 127.0.0.1 - - [15/Mar/2025 23:07:07] "[36mGET /static/js/script.js HTTP/1.1[0m" 304 -
+2025-03-15 23:07:07,234 - werkzeug - INFO - 127.0.0.1 - - [15/Mar/2025 23:07:07] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-03-15 23:07:08,466 - werkzeug - INFO - 127.0.0.1 - - [15/Mar/2025 23:07:08] "GET / HTTP/1.1" 200 -
+2025-03-15 23:07:08,502 - werkzeug - INFO - 127.0.0.1 - - [15/Mar/2025 23:07:08] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-03-15 23:07:08,714 - werkzeug - INFO - 127.0.0.1 - - [15/Mar/2025 23:07:08] "[36mGET /static/js/script.js HTTP/1.1[0m" 304 -
+2025-03-15 23:07:09,203 - werkzeug - INFO - 127.0.0.1 - - [15/Mar/2025 23:07:09] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-03-15 23:07:27,768 - framework - ERROR - Error generating recommendations: framework.FashionRecommendation() argument after ** must be a mapping, not NoneType
+2025-03-15 23:07:27,769 - __main__ - ERROR - Unexpected error: framework.FashionRecommendation() argument after ** must be a mapping, not NoneType
+2025-03-15 23:07:27,771 - werkzeug - INFO - 127.0.0.1 - - [15/Mar/2025 23:07:27] "[32mPOST /get_recommendations HTTP/1.1[0m" 302 -
+2025-03-15 23:07:28,064 - werkzeug - INFO - 127.0.0.1 - - [15/Mar/2025 23:07:28] "GET / HTTP/1.1" 200 -
+2025-03-15 23:07:28,100 - werkzeug - INFO - 127.0.0.1 - - [15/Mar/2025 23:07:28] "GET / HTTP/1.1" 200 -
+2025-03-15 23:07:28,414 - werkzeug - INFO - 127.0.0.1 - - [15/Mar/2025 23:07:28] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-03-15 23:07:28,469 - werkzeug - INFO - 127.0.0.1 - - [15/Mar/2025 23:07:28] "[36mGET /static/js/script.js HTTP/1.1[0m" 304 -
+2025-03-15 23:24:38,481 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-03-15 23:24:38,481 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-03-15 23:24:38,482 - werkzeug - INFO -  * Restarting with stat
+2025-03-15 23:24:40,023 - werkzeug - WARNING -  * Debugger is active!
+2025-03-15 23:24:40,026 - werkzeug - INFO -  * Debugger PIN: 133-299-548
+2025-03-15 23:24:43,744 - werkzeug - INFO - 127.0.0.1 - - [15/Mar/2025 23:24:43] "GET / HTTP/1.1" 200 -
+2025-03-15 23:24:43,833 - werkzeug - INFO - 127.0.0.1 - - [15/Mar/2025 23:24:43] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-03-15 23:24:43,992 - werkzeug - INFO - 127.0.0.1 - - [15/Mar/2025 23:24:43] "GET /static/js/script.js HTTP/1.1" 200 -
+2025-03-15 23:24:44,498 - werkzeug - INFO - 127.0.0.1 - - [15/Mar/2025 23:24:44] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-03-15 23:25:09,244 - werkzeug - INFO - 127.0.0.1 - - [15/Mar/2025 23:25:09] "POST /api/validate-input HTTP/1.1" 200 -
+2025-03-15 23:25:12,498 - werkzeug - INFO - 127.0.0.1 - - [15/Mar/2025 23:25:12] "POST /api/validate-input HTTP/1.1" 200 -
+2025-03-15 23:25:18,383 - werkzeug - INFO - 127.0.0.1 - - [15/Mar/2025 23:25:18] "POST /api/validate-input HTTP/1.1" 200 -
+2025-03-15 23:25:18,652 - werkzeug - INFO - 127.0.0.1 - - [15/Mar/2025 23:25:18] "POST /api/validate-input HTTP/1.1" 200 -
+2025-03-15 23:25:20,435 - werkzeug - INFO - 127.0.0.1 - - [15/Mar/2025 23:25:20] "POST /api/validate-input HTTP/1.1" 200 -
+2025-03-15 23:25:20,713 - werkzeug - INFO - 127.0.0.1 - - [15/Mar/2025 23:25:20] "POST /api/validate-input HTTP/1.1" 200 -
+2025-03-15 23:25:20,735 - werkzeug - INFO - 127.0.0.1 - - [15/Mar/2025 23:25:20] "POST /api/validate-input HTTP/1.1" 200 -
+2025-03-15 23:25:20,952 - werkzeug - INFO - 127.0.0.1 - - [15/Mar/2025 23:25:20] "POST /api/validate-input HTTP/1.1" 200 -
+2025-03-15 23:25:21,244 - werkzeug - INFO - 127.0.0.1 - - [15/Mar/2025 23:25:21] "POST /api/validate-input HTTP/1.1" 200 -
+2025-03-15 23:25:21,519 - werkzeug - INFO - 127.0.0.1 - - [15/Mar/2025 23:25:21] "POST /api/validate-input HTTP/1.1" 200 -
+2025-03-15 23:25:21,755 - werkzeug - INFO - 127.0.0.1 - - [15/Mar/2025 23:25:21] "POST /api/validate-input HTTP/1.1" 200 -
+2025-03-15 23:25:22,035 - werkzeug - INFO - 127.0.0.1 - - [15/Mar/2025 23:25:22] "POST /api/validate-input HTTP/1.1" 200 -
+2025-03-15 23:25:22,284 - werkzeug - INFO - 127.0.0.1 - - [15/Mar/2025 23:25:22] "POST /api/validate-input HTTP/1.1" 200 -
+2025-03-15 23:25:22,526 - werkzeug - INFO - 127.0.0.1 - - [15/Mar/2025 23:25:22] "POST /api/validate-input HTTP/1.1" 200 -
+2025-03-15 23:25:22,740 - werkzeug - INFO - 127.0.0.1 - - [15/Mar/2025 23:25:22] "POST /api/validate-input HTTP/1.1" 200 -
+2025-03-15 23:25:22,950 - werkzeug - INFO - 127.0.0.1 - - [15/Mar/2025 23:25:22] "POST /api/validate-input HTTP/1.1" 200 -
+2025-03-15 23:25:23,226 - werkzeug - INFO - 127.0.0.1 - - [15/Mar/2025 23:25:23] "POST /api/validate-input HTTP/1.1" 200 -
+2025-03-15 23:25:23,466 - werkzeug - INFO - 127.0.0.1 - - [15/Mar/2025 23:25:23] "POST /api/validate-input HTTP/1.1" 200 -
+2025-03-15 23:25:23,708 - werkzeug - INFO - 127.0.0.1 - - [15/Mar/2025 23:25:23] "POST /api/validate-input HTTP/1.1" 200 -
+2025-03-15 23:29:58,646 - werkzeug - INFO -  * Detected change in 'd:\\Tare\\Project\\AI-chatbox\\framework.py', reloading
+2025-03-15 23:29:59,169 - werkzeug - INFO -  * Restarting with stat
+2025-03-15 23:30:03,375 - werkzeug - WARNING -  * Debugger is active!
+2025-03-15 23:30:03,379 - werkzeug - INFO -  * Debugger PIN: 133-299-548
+2025-03-15 23:30:30,673 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-03-15 23:30:30,674 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-03-15 23:30:30,677 - werkzeug - INFO -  * Restarting with stat
+2025-03-15 23:30:33,715 - werkzeug - WARNING -  * Debugger is active!
+2025-03-15 23:30:33,719 - werkzeug - INFO -  * Debugger PIN: 133-299-548
+2025-03-15 23:30:35,505 - werkzeug - INFO - 127.0.0.1 - - [15/Mar/2025 23:30:35] "GET / HTTP/1.1" 200 -
+2025-03-15 23:30:35,659 - werkzeug - INFO - 127.0.0.1 - - [15/Mar/2025 23:30:35] "GET /static/css/style.css HTTP/1.1" 200 -
+2025-03-15 23:30:35,659 - werkzeug - INFO - 127.0.0.1 - - [15/Mar/2025 23:30:35] "GET /static/js/script.js HTTP/1.1" 200 -
+2025-03-15 23:30:36,319 - werkzeug - INFO - 127.0.0.1 - - [15/Mar/2025 23:30:36] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-03-15 23:30:56,216 - werkzeug - INFO - 127.0.0.1 - - [15/Mar/2025 23:30:56] "POST /api/validate-input HTTP/1.1" 200 -
+2025-03-15 23:30:56,222 - werkzeug - INFO - 127.0.0.1 - - [15/Mar/2025 23:30:56] "POST /api/validate-input HTTP/1.1" 200 -
+2025-03-15 23:30:56,348 - framework - ERROR - Error generating recommendations: 'FashionRecommender' object has no attribute '_get_base_recommendations'
+2025-03-15 23:30:56,461 - __main__ - ERROR - Error getting recommendations: 'FashionRecommender' object has no attribute '_get_base_recommendations'
+2025-03-15 23:30:56,462 - framework - ERROR - Error generating recommendations: 'FashionRecommender' object has no attribute '_get_base_recommendations'
+2025-03-15 23:30:56,522 - werkzeug - INFO - 127.0.0.1 - - [15/Mar/2025 23:30:56] "[32mPOST /get_recommendations HTTP/1.1[0m" 302 -
+2025-03-15 23:30:56,514 - __main__ - ERROR - Error getting recommendations: 'FashionRecommender' object has no attribute '_get_base_recommendations'
+2025-03-15 23:30:56,553 - werkzeug - INFO - 127.0.0.1 - - [15/Mar/2025 23:30:56] "[32mPOST /get_recommendations HTTP/1.1[0m" 302 -
+2025-03-15 23:30:56,598 - werkzeug - INFO - 127.0.0.1 - - [15/Mar/2025 23:30:56] "GET / HTTP/1.1" 200 -
+2025-03-15 23:30:56,656 - werkzeug - INFO - 127.0.0.1 - - [15/Mar/2025 23:30:56] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-03-15 23:30:56,666 - werkzeug - INFO - 127.0.0.1 - - [15/Mar/2025 23:30:56] "[36mGET /static/js/script.js HTTP/1.1[0m" 304 -
+2025-03-15 23:31:05,330 - werkzeug - INFO - 127.0.0.1 - - [15/Mar/2025 23:31:05] "POST /api/validate-input HTTP/1.1" 200 -
+2025-03-15 23:31:05,332 - werkzeug - INFO - 127.0.0.1 - - [15/Mar/2025 23:31:05] "POST /api/validate-input HTTP/1.1" 200 -
+2025-03-15 23:31:05,437 - framework - ERROR - Error generating recommendations: 'FashionRecommender' object has no attribute '_get_base_recommendations'
+2025-03-15 23:31:05,439 - __main__ - ERROR - Error getting recommendations: 'FashionRecommender' object has no attribute '_get_base_recommendations'
+2025-03-15 23:31:05,469 - werkzeug - INFO - 127.0.0.1 - - [15/Mar/2025 23:31:05] "[32mPOST /get_recommendations HTTP/1.1[0m" 302 -
+2025-03-15 23:31:05,563 - werkzeug - INFO - 127.0.0.1 - - [15/Mar/2025 23:31:05] "GET / HTTP/1.1" 200 -
+2025-03-15 23:31:05,704 - werkzeug - INFO - 127.0.0.1 - - [15/Mar/2025 23:31:05] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-03-15 23:31:05,712 - werkzeug - INFO - 127.0.0.1 - - [15/Mar/2025 23:31:05] "[36mGET /static/js/script.js HTTP/1.1[0m" 304 -
+2025-03-15 23:32:06,025 - werkzeug - INFO -  * Detected change in 'd:\\Tare\\Project\\AI-chatbox\\framework.py', reloading
+2025-03-15 23:32:06,358 - werkzeug - INFO -  * Restarting with stat
+2025-03-15 23:32:09,450 - werkzeug - WARNING -  * Debugger is active!
+2025-03-15 23:32:09,453 - werkzeug - INFO -  * Debugger PIN: 133-299-548
+2025-03-15 23:32:25,205 - werkzeug - INFO - 127.0.0.1 - - [15/Mar/2025 23:32:25] "GET / HTTP/1.1" 200 -
+2025-03-15 23:32:26,027 - werkzeug - INFO - 127.0.0.1 - - [15/Mar/2025 23:32:26] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-03-15 23:32:26,034 - werkzeug - INFO - 127.0.0.1 - - [15/Mar/2025 23:32:26] "GET /static/js/script.js HTTP/1.1" 200 -
+2025-03-15 23:32:41,532 - werkzeug - INFO - 127.0.0.1 - - [15/Mar/2025 23:32:41] "POST /api/validate-input HTTP/1.1" 200 -
+2025-03-15 23:32:41,535 - werkzeug - INFO - 127.0.0.1 - - [15/Mar/2025 23:32:41] "POST /api/validate-input HTTP/1.1" 200 -
+2025-03-15 23:32:41,796 - framework - ERROR - Error generating recommendations: 'FashionRecommender' object has no attribute '_get_base_recommendations'
+2025-03-15 23:32:41,798 - __main__ - ERROR - Error getting recommendations: 'FashionRecommender' object has no attribute '_get_base_recommendations'
+2025-03-15 23:32:41,805 - werkzeug - INFO - 127.0.0.1 - - [15/Mar/2025 23:32:41] "[32mPOST /get_recommendations HTTP/1.1[0m" 302 -
+2025-03-15 23:32:41,912 - werkzeug - INFO - 127.0.0.1 - - [15/Mar/2025 23:32:41] "GET / HTTP/1.1" 200 -
+2025-03-15 23:32:42,177 - werkzeug - INFO - 127.0.0.1 - - [15/Mar/2025 23:32:42] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-03-15 23:32:42,690 - werkzeug - INFO - 127.0.0.1 - - [15/Mar/2025 23:32:42] "[36mGET /static/js/script.js HTTP/1.1[0m" 304 -
+2025-03-15 23:34:04,485 - werkzeug - INFO -  * Detected change in 'd:\\Tare\\Project\\AI-chatbox\\app.py', reloading
+2025-03-15 23:34:05,700 - werkzeug - INFO -  * Restarting with stat
+2025-03-15 23:34:18,789 - werkzeug - WARNING -  * Debugger is active!
+2025-03-15 23:34:18,804 - werkzeug - INFO -  * Debugger PIN: 133-299-548
+2025-03-15 23:34:19,024 - werkzeug - INFO - 127.0.0.1 - - [15/Mar/2025 23:34:19] "GET / HTTP/1.1" 200 -
+2025-03-15 23:34:20,707 - werkzeug - INFO - 127.0.0.1 - - [15/Mar/2025 23:34:20] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-03-15 23:34:20,718 - werkzeug - INFO - 127.0.0.1 - - [15/Mar/2025 23:34:20] "[36mGET /static/js/script.js HTTP/1.1[0m" 304 -
+2025-03-15 23:34:38,463 - werkzeug - INFO - 127.0.0.1 - - [15/Mar/2025 23:34:38] "POST /api/validate-input HTTP/1.1" 200 -
+2025-03-15 23:34:38,512 - werkzeug - INFO - 127.0.0.1 - - [15/Mar/2025 23:34:38] "POST /api/validate-input HTTP/1.1" 200 -
+2025-03-15 23:34:38,755 - framework - ERROR - Error generating recommendations: 'FashionRecommender' object has no attribute '_get_base_recommendations'
+2025-03-15 23:34:38,768 - __main__ - ERROR - Error getting recommendations: 'FashionRecommender' object has no attribute '_get_base_recommendations'
+2025-03-15 23:34:38,843 - werkzeug - INFO - 127.0.0.1 - - [15/Mar/2025 23:34:38] "[32mPOST /get_recommendations HTTP/1.1[0m" 302 -
+2025-03-15 23:34:39,115 - framework - ERROR - Error generating recommendations: 'FashionRecommender' object has no attribute '_get_base_recommendations'
+2025-03-15 23:34:39,143 - __main__ - ERROR - Error getting recommendations: 'FashionRecommender' object has no attribute '_get_base_recommendations'
+2025-03-15 23:34:39,227 - werkzeug - INFO - 127.0.0.1 - - [15/Mar/2025 23:34:39] "[32mPOST /get_recommendations HTTP/1.1[0m" 302 -
+2025-03-15 23:34:39,524 - werkzeug - INFO - 127.0.0.1 - - [15/Mar/2025 23:34:39] "GET / HTTP/1.1" 200 -
+2025-03-15 23:34:39,838 - werkzeug - INFO - 127.0.0.1 - - [15/Mar/2025 23:34:39] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-03-15 23:34:39,876 - werkzeug - INFO - 127.0.0.1 - - [15/Mar/2025 23:34:39] "[36mGET /static/js/script.js HTTP/1.1[0m" 304 -
+2025-03-15 23:35:48,628 - werkzeug - INFO -  * Detected change in 'd:\\Tare\\Project\\AI-chatbox\\app.py', reloading
+2025-03-15 23:35:49,575 - werkzeug - INFO -  * Restarting with stat
+2025-03-15 23:36:01,084 - werkzeug - WARNING -  * Debugger is active!
+2025-03-15 23:36:01,105 - werkzeug - INFO -  * Debugger PIN: 133-299-548
+2025-03-16 00:18:07,751 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-03-16 00:18:07,752 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-03-16 00:18:07,754 - werkzeug - INFO -  * Restarting with stat
+2025-03-16 00:18:09,215 - werkzeug - WARNING -  * Debugger is active!
+2025-03-16 00:18:09,217 - werkzeug - INFO -  * Debugger PIN: 133-299-548
+2025-03-16 00:18:13,133 - werkzeug - INFO - 127.0.0.1 - - [16/Mar/2025 00:18:13] "GET / HTTP/1.1" 200 -
+2025-03-16 00:18:13,293 - werkzeug - INFO - 127.0.0.1 - - [16/Mar/2025 00:18:13] "GET /static/css/styles.css HTTP/1.1" 200 -
+2025-03-16 00:18:13,375 - werkzeug - INFO - 127.0.0.1 - - [16/Mar/2025 00:18:13] "[33mGET /static/js/app.js HTTP/1.1[0m" 404 -
+2025-03-16 00:18:47,335 - werkzeug - INFO - 127.0.0.1 - - [16/Mar/2025 00:18:47] "POST /get_recommendations HTTP/1.1" 200 -
+2025-03-16 00:18:47,396 - werkzeug - INFO - 127.0.0.1 - - [16/Mar/2025 00:18:47] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-03-16 00:19:34,617 - werkzeug - INFO - 127.0.0.1 - - [16/Mar/2025 00:19:34] "POST /get_recommendations HTTP/1.1" 200 -
+2025-03-16 00:19:34,670 - werkzeug - INFO - 127.0.0.1 - - [16/Mar/2025 00:19:34] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-03-16 00:20:33,362 - __main__ - INFO - Image saved successfully: D:\Tare\Project\AI-chatbox\static/images/uploads\20250316_002033_a7b1617a.jpg
+2025-03-16 00:20:33,363 - __main__ - INFO - Skin tone detected: medium
+2025-03-16 00:20:33,364 - __main__ - INFO - Image metadata extracted: 3 attributes found
+2025-03-16 00:20:33,367 - werkzeug - INFO - 127.0.0.1 - - [16/Mar/2025 00:20:33] "POST /get_recommendations HTTP/1.1" 200 -
+2025-03-16 00:20:33,652 - werkzeug - INFO - 127.0.0.1 - - [16/Mar/2025 00:20:33] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-03-16 00:21:17,396 - werkzeug - INFO - 127.0.0.1 - - [16/Mar/2025 00:21:17] "GET / HTTP/1.1" 200 -
+2025-03-16 00:21:17,624 - werkzeug - INFO - 127.0.0.1 - - [16/Mar/2025 00:21:17] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-03-16 00:21:17,652 - werkzeug - INFO - 127.0.0.1 - - [16/Mar/2025 00:21:17] "[33mGET /static/js/app.js HTTP/1.1[0m" 404 -
+2025-03-16 00:21:47,568 - __main__ - INFO - Image saved successfully: D:\Tare\Project\AI-chatbox\static/images/uploads\20250316_002147_a4fcb0f1.jpg
+2025-03-16 00:21:47,570 - __main__ - INFO - Skin tone detected: medium
+2025-03-16 00:21:47,572 - __main__ - INFO - Image metadata extracted: 3 attributes found
+2025-03-16 00:21:47,576 - werkzeug - INFO - 127.0.0.1 - - [16/Mar/2025 00:21:47] "POST /get_recommendations HTTP/1.1" 200 -
+2025-03-16 00:21:47,624 - werkzeug - INFO - 127.0.0.1 - - [16/Mar/2025 00:21:47] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-03-16 00:33:10,980 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-03-16 00:33:10,981 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-03-16 00:33:10,983 - werkzeug - INFO -  * Restarting with stat
+2025-03-16 00:33:12,411 - werkzeug - WARNING -  * Debugger is active!
+2025-03-16 00:33:12,414 - werkzeug - INFO -  * Debugger PIN: 133-299-548
+2025-03-16 00:33:16,945 - werkzeug - INFO - 127.0.0.1 - - [16/Mar/2025 00:33:16] "GET / HTTP/1.1" 200 -
+2025-03-16 00:33:17,022 - werkzeug - INFO - 127.0.0.1 - - [16/Mar/2025 00:33:17] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-03-16 00:33:17,198 - werkzeug - INFO - 127.0.0.1 - - [16/Mar/2025 00:33:17] "[33mGET /static/js/app.js HTTP/1.1[0m" 404 -
+2025-03-16 00:33:43,564 - werkzeug - INFO - 127.0.0.1 - - [16/Mar/2025 00:33:43] "POST /get_recommendations HTTP/1.1" 200 -
+2025-03-16 00:33:43,610 - werkzeug - INFO - 127.0.0.1 - - [16/Mar/2025 00:33:43] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-03-16 00:36:02,489 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-03-16 00:36:02,489 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-03-16 00:36:02,491 - werkzeug - INFO -  * Restarting with stat
+2025-03-16 00:36:04,033 - werkzeug - WARNING -  * Debugger is active!
+2025-03-16 00:36:04,035 - werkzeug - INFO -  * Debugger PIN: 133-299-548
+2025-03-16 00:36:07,043 - werkzeug - INFO - 127.0.0.1 - - [16/Mar/2025 00:36:07] "GET / HTTP/1.1" 200 -
+2025-03-16 00:36:07,113 - werkzeug - INFO - 127.0.0.1 - - [16/Mar/2025 00:36:07] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-03-16 00:36:07,297 - werkzeug - INFO - 127.0.0.1 - - [16/Mar/2025 00:36:07] "[33mGET /static/js/app.js HTTP/1.1[0m" 404 -
+2025-03-16 00:36:21,685 - werkzeug - INFO - 127.0.0.1 - - [16/Mar/2025 00:36:21] "POST /get_recommendations HTTP/1.1" 200 -
+2025-03-16 00:36:21,736 - werkzeug - INFO - 127.0.0.1 - - [16/Mar/2025 00:36:21] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-03-16 00:51:40,671 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-03-16 00:51:40,672 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-03-16 00:51:40,674 - werkzeug - INFO -  * Restarting with stat
+2025-03-16 00:51:42,187 - werkzeug - WARNING -  * Debugger is active!
+2025-03-16 00:51:42,190 - werkzeug - INFO -  * Debugger PIN: 133-299-548
+2025-03-16 00:51:48,405 - werkzeug - INFO - 127.0.0.1 - - [16/Mar/2025 00:51:48] "GET / HTTP/1.1" 200 -
+2025-03-16 00:51:48,574 - werkzeug - INFO - 127.0.0.1 - - [16/Mar/2025 00:51:48] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-03-16 00:51:48,659 - werkzeug - INFO - 127.0.0.1 - - [16/Mar/2025 00:51:48] "[33mGET /static/js/app.js HTTP/1.1[0m" 404 -
+2025-03-16 00:52:35,150 - werkzeug - INFO - 127.0.0.1 - - [16/Mar/2025 00:52:35] "POST /get_recommendations HTTP/1.1" 200 -
+2025-03-16 00:52:35,232 - werkzeug - INFO - 127.0.0.1 - - [16/Mar/2025 00:52:35] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-03-16 00:54:58,232 - werkzeug - INFO - 127.0.0.1 - - [16/Mar/2025 00:54:58] "GET / HTTP/1.1" 200 -
+2025-03-16 00:54:58,517 - werkzeug - INFO - 127.0.0.1 - - [16/Mar/2025 00:54:58] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-03-16 00:54:58,610 - werkzeug - INFO - 127.0.0.1 - - [16/Mar/2025 00:54:58] "[33mGET /static/js/app.js HTTP/1.1[0m" 404 -
+2025-03-16 00:55:14,295 - werkzeug - INFO - 127.0.0.1 - - [16/Mar/2025 00:55:14] "POST /get_recommendations HTTP/1.1" 200 -
+2025-03-16 00:55:14,347 - werkzeug - INFO - 127.0.0.1 - - [16/Mar/2025 00:55:14] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-03-16 00:57:25,649 - werkzeug - INFO -  * Detected change in 'D:\\Tare\\Project\\AI-chatbox\\framework.py', reloading
+2025-03-16 00:57:28,024 - werkzeug - INFO -  * Restarting with stat
+2025-03-16 00:57:30,158 - werkzeug - WARNING -  * Debugger is active!
+2025-03-16 00:57:30,160 - werkzeug - INFO -  * Debugger PIN: 133-299-548
+2025-03-16 00:58:19,368 - werkzeug - INFO -  * Detected change in 'D:\\Tare\\Project\\AI-chatbox\\framework.py', reloading
+2025-03-16 00:58:21,695 - werkzeug - INFO -  * Restarting with stat
+2025-03-16 00:58:23,399 - werkzeug - WARNING -  * Debugger is active!
+2025-03-16 00:58:23,401 - werkzeug - INFO -  * Debugger PIN: 133-299-548
+2025-03-16 00:59:28,665 - werkzeug - INFO -  * Detected change in 'D:\\Tare\\Project\\AI-chatbox\\framework.py', reloading
+2025-03-16 00:59:30,974 - werkzeug - INFO -  * Restarting with stat
+2025-03-16 00:59:32,672 - werkzeug - WARNING -  * Debugger is active!
+2025-03-16 00:59:32,675 - werkzeug - INFO -  * Debugger PIN: 133-299-548
+2025-03-16 00:59:41,003 - werkzeug - INFO - 127.0.0.1 - - [16/Mar/2025 00:59:41] "POST /get_recommendations HTTP/1.1" 200 -
+2025-03-16 00:59:41,273 - werkzeug - INFO - 127.0.0.1 - - [16/Mar/2025 00:59:41] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-03-16 00:59:54,731 - werkzeug - INFO - 127.0.0.1 - - [16/Mar/2025 00:59:54] "GET / HTTP/1.1" 200 -
+2025-03-16 00:59:54,785 - werkzeug - INFO - 127.0.0.1 - - [16/Mar/2025 00:59:54] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-03-16 00:59:54,947 - werkzeug - INFO - 127.0.0.1 - - [16/Mar/2025 00:59:54] "[33mGET /static/js/app.js HTTP/1.1[0m" 404 -
+2025-03-16 01:00:07,090 - werkzeug - INFO - 127.0.0.1 - - [16/Mar/2025 01:00:07] "POST /get_recommendations HTTP/1.1" 200 -
+2025-03-16 01:00:07,156 - werkzeug - INFO - 127.0.0.1 - - [16/Mar/2025 01:00:07] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-03-16 01:01:21,766 - werkzeug - INFO -  * Detected change in 'D:\\Tare\\Project\\AI-chatbox\\framework.py', reloading
+2025-03-16 01:01:24,073 - werkzeug - INFO -  * Restarting with stat
+2025-03-16 01:01:25,945 - werkzeug - WARNING -  * Debugger is active!
+2025-03-16 01:01:25,947 - werkzeug - INFO -  * Debugger PIN: 133-299-548
+2025-03-16 01:01:32,178 - werkzeug - INFO - 127.0.0.1 - - [16/Mar/2025 01:01:32] "POST /get_recommendations HTTP/1.1" 200 -
+2025-03-16 01:01:32,250 - werkzeug - INFO - 127.0.0.1 - - [16/Mar/2025 01:01:32] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-03-16 01:01:37,991 - werkzeug - INFO - 127.0.0.1 - - [16/Mar/2025 01:01:37] "POST /get_recommendations HTTP/1.1" 200 -
+2025-03-16 01:01:38,290 - werkzeug - INFO - 127.0.0.1 - - [16/Mar/2025 01:01:38] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-03-16 01:01:41,175 - werkzeug - INFO - 127.0.0.1 - - [16/Mar/2025 01:01:41] "POST /get_recommendations HTTP/1.1" 200 -
+2025-03-16 01:01:41,241 - werkzeug - INFO - 127.0.0.1 - - [16/Mar/2025 01:01:41] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-03-16 01:01:44,278 - werkzeug - INFO - 127.0.0.1 - - [16/Mar/2025 01:01:44] "GET / HTTP/1.1" 200 -
+2025-03-16 01:01:44,571 - werkzeug - INFO - 127.0.0.1 - - [16/Mar/2025 01:01:44] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-03-16 01:01:44,628 - werkzeug - INFO - 127.0.0.1 - - [16/Mar/2025 01:01:44] "[33mGET /static/js/app.js HTTP/1.1[0m" 404 -
+2025-03-16 01:01:48,134 - werkzeug - INFO - 127.0.0.1 - - [16/Mar/2025 01:01:48] "GET / HTTP/1.1" 200 -
+2025-03-16 01:01:48,177 - werkzeug - INFO - 127.0.0.1 - - [16/Mar/2025 01:01:48] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-03-16 01:01:48,400 - werkzeug - INFO - 127.0.0.1 - - [16/Mar/2025 01:01:48] "[33mGET /static/js/app.js HTTP/1.1[0m" 404 -
+2025-03-16 01:02:00,391 - werkzeug - INFO - 127.0.0.1 - - [16/Mar/2025 01:02:00] "POST /get_recommendations HTTP/1.1" 200 -
+2025-03-16 01:02:00,437 - werkzeug - INFO - 127.0.0.1 - - [16/Mar/2025 01:02:00] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-03-16 01:03:56,867 - werkzeug - INFO -  * Detected change in 'D:\\Tare\\Project\\AI-chatbox\\framework.py', reloading
+2025-03-16 01:03:59,112 - werkzeug - INFO -  * Restarting with stat
+2025-03-16 01:04:00,857 - werkzeug - WARNING -  * Debugger is active!
+2025-03-16 01:04:00,859 - werkzeug - INFO -  * Debugger PIN: 133-299-548
+2025-03-16 01:11:11,301 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-03-16 01:11:11,301 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-03-16 01:11:11,302 - werkzeug - INFO -  * Restarting with stat
+2025-03-16 01:11:12,711 - werkzeug - WARNING -  * Debugger is active!
+2025-03-16 01:11:12,713 - werkzeug - INFO -  * Debugger PIN: 133-299-548
+2025-03-16 01:11:17,740 - werkzeug - INFO - 127.0.0.1 - - [16/Mar/2025 01:11:17] "GET / HTTP/1.1" 200 -
+2025-03-16 01:11:17,822 - werkzeug - INFO - 127.0.0.1 - - [16/Mar/2025 01:11:17] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-03-16 01:11:17,993 - werkzeug - INFO - 127.0.0.1 - - [16/Mar/2025 01:11:17] "[33mGET /static/js/app.js HTTP/1.1[0m" 404 -
+2025-03-16 01:11:42,781 - werkzeug - INFO - 127.0.0.1 - - [16/Mar/2025 01:11:42] "POST /get_recommendations HTTP/1.1" 200 -
+2025-03-16 01:11:43,152 - werkzeug - INFO - 127.0.0.1 - - [16/Mar/2025 01:11:43] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-03-16 01:14:04,845 - werkzeug - INFO -  * Detected change in 'D:\\Tare\\Project\\AI-chatbox\\app.py', reloading
+2025-03-16 01:14:07,112 - werkzeug - INFO -  * Restarting with stat
+2025-03-16 01:14:08,907 - werkzeug - WARNING -  * Debugger is active!
+2025-03-16 01:14:08,911 - werkzeug - INFO -  * Debugger PIN: 133-299-548
+2025-03-16 01:14:32,197 - werkzeug - INFO - 127.0.0.1 - - [16/Mar/2025 01:14:32] "POST /get_recommendations HTTP/1.1" 200 -
+2025-03-16 01:14:36,671 - werkzeug - INFO - 127.0.0.1 - - [16/Mar/2025 01:14:36] "POST /get_recommendations HTTP/1.1" 200 -
+2025-03-16 01:14:37,166 - werkzeug - INFO - 127.0.0.1 - - [16/Mar/2025 01:14:37] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-03-16 01:15:09,212 - werkzeug - INFO - 127.0.0.1 - - [16/Mar/2025 01:15:09] "POST /get_recommendations HTTP/1.1" 200 -
+2025-03-16 01:15:09,570 - werkzeug - INFO - 127.0.0.1 - - [16/Mar/2025 01:15:09] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-03-16 01:22:17,786 - werkzeug - INFO -  * Detected change in 'D:\\Tare\\Project\\AI-chatbox\\app.py', reloading
+2025-03-16 01:22:20,243 - werkzeug - INFO -  * Restarting with stat
+2025-03-16 01:22:22,248 - werkzeug - WARNING -  * Debugger is active!
+2025-03-16 01:22:22,252 - werkzeug - INFO -  * Debugger PIN: 133-299-548
+2025-03-16 01:22:30,297 - werkzeug - INFO -  * Detected change in 'D:\\Tare\\Project\\AI-chatbox\\framework.py', reloading
+2025-03-16 01:22:32,644 - werkzeug - INFO -  * Restarting with stat
+2025-03-16 01:22:34,212 - werkzeug - WARNING -  * Debugger is active!
+2025-03-16 01:22:34,214 - werkzeug - INFO -  * Debugger PIN: 133-299-548
+2025-03-16 01:24:10,567 - werkzeug - INFO -  * Detected change in 'D:\\Tare\\Project\\AI-chatbox\\framework.py', reloading
+2025-03-16 01:24:12,900 - werkzeug - INFO -  * Restarting with stat
+2025-03-16 01:24:14,621 - werkzeug - WARNING -  * Debugger is active!
+2025-03-16 01:24:14,625 - werkzeug - INFO -  * Debugger PIN: 133-299-548
+2025-03-16 01:25:12,847 - werkzeug - INFO -  * Detected change in 'D:\\Tare\\Project\\AI-chatbox\\framework.py', reloading
+2025-03-16 01:25:15,098 - werkzeug - INFO -  * Restarting with stat
+2025-03-16 01:25:16,790 - werkzeug - WARNING -  * Debugger is active!
+2025-03-16 01:25:16,795 - werkzeug - INFO -  * Debugger PIN: 133-299-548
+2025-03-16 01:25:24,843 - werkzeug - INFO -  * Detected change in 'D:\\Tare\\Project\\AI-chatbox\\framework.py', reloading
+2025-03-16 01:25:27,115 - werkzeug - INFO -  * Restarting with stat
+2025-03-16 01:25:28,816 - werkzeug - WARNING -  * Debugger is active!
+2025-03-16 01:25:28,819 - werkzeug - INFO -  * Debugger PIN: 133-299-548
+2025-03-16 01:25:38,862 - werkzeug - INFO -  * Detected change in 'D:\\Tare\\Project\\AI-chatbox\\framework.py', reloading
+2025-03-16 01:25:41,171 - werkzeug - INFO -  * Restarting with stat
+2025-03-16 01:25:42,838 - werkzeug - WARNING -  * Debugger is active!
+2025-03-16 01:25:42,841 - werkzeug - INFO -  * Debugger PIN: 133-299-548
+2025-03-16 01:26:05,006 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-03-16 01:26:05,006 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-03-16 01:26:05,008 - werkzeug - INFO -  * Restarting with stat
+2025-03-16 01:26:06,615 - werkzeug - WARNING -  * Debugger is active!
+2025-03-16 01:26:06,616 - werkzeug - INFO -  * Debugger PIN: 133-299-548
+2025-03-16 01:26:11,156 - werkzeug - INFO - 127.0.0.1 - - [16/Mar/2025 01:26:11] "GET / HTTP/1.1" 200 -
+2025-03-16 01:26:11,229 - werkzeug - INFO - 127.0.0.1 - - [16/Mar/2025 01:26:11] "[33mGET /static/js/app.js HTTP/1.1[0m" 404 -
+2025-03-16 01:26:11,454 - werkzeug - INFO - 127.0.0.1 - - [16/Mar/2025 01:26:11] "GET /static/css/styles.css HTTP/1.1" 200 -
+2025-03-16 01:26:45,856 - werkzeug - INFO - 127.0.0.1 - - [16/Mar/2025 01:26:45] "POST /get_recommendations HTTP/1.1" 200 -
+2025-03-16 01:26:45,921 - werkzeug - INFO - 127.0.0.1 - - [16/Mar/2025 01:26:45] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-03-16 01:26:56,484 - werkzeug - INFO - 127.0.0.1 - - [16/Mar/2025 01:26:56] "GET / HTTP/1.1" 200 -
+2025-03-16 01:26:56,776 - werkzeug - INFO - 127.0.0.1 - - [16/Mar/2025 01:26:56] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-03-16 01:26:56,894 - werkzeug - INFO - 127.0.0.1 - - [16/Mar/2025 01:26:56] "[33mGET /static/js/app.js HTTP/1.1[0m" 404 -
+2025-03-16 01:29:20,472 - werkzeug - INFO - 127.0.0.1 - - [16/Mar/2025 01:29:20] "GET / HTTP/1.1" 200 -
+2025-03-16 01:29:20,535 - werkzeug - INFO - 127.0.0.1 - - [16/Mar/2025 01:29:20] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-03-16 01:29:20,740 - werkzeug - INFO - 127.0.0.1 - - [16/Mar/2025 01:29:20] "[33mGET /static/js/app.js HTTP/1.1[0m" 404 -
+2025-03-16 01:29:23,404 - werkzeug - INFO - 127.0.0.1 - - [16/Mar/2025 01:29:23] "GET / HTTP/1.1" 200 -
+2025-03-16 01:29:23,452 - werkzeug - INFO - 127.0.0.1 - - [16/Mar/2025 01:29:23] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-03-16 01:29:23,673 - werkzeug - INFO - 127.0.0.1 - - [16/Mar/2025 01:29:23] "[33mGET /static/js/app.js HTTP/1.1[0m" 404 -
+2025-03-16 01:29:36,742 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-03-16 01:29:36,742 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-03-16 01:29:36,743 - werkzeug - INFO -  * Restarting with stat
+2025-03-16 01:29:38,331 - werkzeug - WARNING -  * Debugger is active!
+2025-03-16 01:29:38,333 - werkzeug - INFO -  * Debugger PIN: 133-299-548
+2025-03-16 01:29:41,413 - werkzeug - INFO - 127.0.0.1 - - [16/Mar/2025 01:29:41] "GET / HTTP/1.1" 200 -
+2025-03-16 01:29:41,478 - werkzeug - INFO - 127.0.0.1 - - [16/Mar/2025 01:29:41] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-03-16 01:29:41,670 - werkzeug - INFO - 127.0.0.1 - - [16/Mar/2025 01:29:41] "[33mGET /static/js/app.js HTTP/1.1[0m" 404 -
+2025-03-16 01:34:42,273 - werkzeug - INFO - 127.0.0.1 - - [16/Mar/2025 01:34:42] "GET / HTTP/1.1" 200 -
+2025-03-16 01:34:42,314 - werkzeug - INFO - 127.0.0.1 - - [16/Mar/2025 01:34:42] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-03-16 01:34:42,516 - werkzeug - INFO - 127.0.0.1 - - [16/Mar/2025 01:34:42] "[33mGET /static/js/app.js HTTP/1.1[0m" 404 -
+2025-03-16 01:35:25,530 - werkzeug - INFO - 127.0.0.1 - - [16/Mar/2025 01:35:25] "POST /get_recommendations HTTP/1.1" 200 -
+2025-03-16 01:35:25,953 - werkzeug - INFO - 127.0.0.1 - - [16/Mar/2025 01:35:25] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-03-16 01:40:50,822 - werkzeug - INFO - 127.0.0.1 - - [16/Mar/2025 01:40:50] "GET / HTTP/1.1" 200 -
+2025-03-16 01:40:50,874 - werkzeug - INFO - 127.0.0.1 - - [16/Mar/2025 01:40:50] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-03-16 01:40:51,035 - werkzeug - INFO - 127.0.0.1 - - [16/Mar/2025 01:40:51] "[33mGET /static/js/app.js HTTP/1.1[0m" 404 -
+2025-03-16 01:41:21,081 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-03-16 01:41:21,082 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-03-16 01:41:21,084 - werkzeug - INFO -  * Restarting with stat
+2025-03-16 01:41:22,585 - werkzeug - WARNING -  * Debugger is active!
+2025-03-16 01:41:22,587 - werkzeug - INFO -  * Debugger PIN: 133-299-548
+2025-03-16 01:41:35,071 - werkzeug - INFO - 127.0.0.1 - - [16/Mar/2025 01:41:35] "GET / HTTP/1.1" 200 -
+2025-03-16 01:41:35,183 - werkzeug - INFO - 127.0.0.1 - - [16/Mar/2025 01:41:35] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-03-16 01:41:35,306 - werkzeug - INFO - 127.0.0.1 - - [16/Mar/2025 01:41:35] "[33mGET /static/js/app.js HTTP/1.1[0m" 404 -
+2025-03-16 01:44:20,083 - werkzeug - INFO - 127.0.0.1 - - [16/Mar/2025 01:44:20] "GET / HTTP/1.1" 200 -
+2025-03-16 01:44:20,116 - werkzeug - INFO - 127.0.0.1 - - [16/Mar/2025 01:44:20] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-03-16 01:44:20,343 - werkzeug - INFO - 127.0.0.1 - - [16/Mar/2025 01:44:20] "[33mGET /static/js/app.js HTTP/1.1[0m" 404 -
+2025-03-16 01:57:18,748 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-03-16 01:57:18,748 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-03-16 01:57:18,750 - werkzeug - INFO -  * Restarting with stat
+2025-03-16 01:57:20,318 - werkzeug - WARNING -  * Debugger is active!
+2025-03-16 01:57:20,321 - werkzeug - INFO -  * Debugger PIN: 133-299-548
+2025-03-16 01:57:37,721 - werkzeug - INFO - 127.0.0.1 - - [16/Mar/2025 01:57:37] "GET / HTTP/1.1" 200 -
+2025-03-16 01:57:37,796 - werkzeug - INFO - 127.0.0.1 - - [16/Mar/2025 01:57:37] "[33mGET /static/js/app.js HTTP/1.1[0m" 404 -
+2025-03-16 01:57:38,026 - werkzeug - INFO - 127.0.0.1 - - [16/Mar/2025 01:57:38] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-03-16 02:01:10,598 - werkzeug - INFO - 127.0.0.1 - - [16/Mar/2025 02:01:10] "POST /get_recommendations HTTP/1.1" 200 -
+2025-03-16 02:01:11,028 - werkzeug - INFO - 127.0.0.1 - - [16/Mar/2025 02:01:11] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-03-16 02:01:42,009 - werkzeug - INFO - 127.0.0.1 - - [16/Mar/2025 02:01:42] "GET / HTTP/1.1" 200 -
+2025-03-16 02:01:42,241 - werkzeug - INFO - 127.0.0.1 - - [16/Mar/2025 02:01:42] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-03-16 02:01:42,271 - werkzeug - INFO - 127.0.0.1 - - [16/Mar/2025 02:01:42] "[33mGET /static/js/app.js HTTP/1.1[0m" 404 -
+2025-03-16 02:02:19,134 - werkzeug - INFO - 127.0.0.1 - - [16/Mar/2025 02:02:19] "POST /get_recommendations HTTP/1.1" 200 -
+2025-03-16 02:02:19,519 - werkzeug - INFO - 127.0.0.1 - - [16/Mar/2025 02:02:19] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-03-16 02:02:45,535 - werkzeug - INFO - 127.0.0.1 - - [16/Mar/2025 02:02:45] "GET / HTTP/1.1" 200 -
+2025-03-16 02:02:45,771 - werkzeug - INFO - 127.0.0.1 - - [16/Mar/2025 02:02:45] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-03-16 02:02:45,974 - werkzeug - INFO - 127.0.0.1 - - [16/Mar/2025 02:02:45] "[33mGET /static/js/app.js HTTP/1.1[0m" 404 -
+2025-03-16 02:03:29,671 - werkzeug - INFO - 127.0.0.1 - - [16/Mar/2025 02:03:29] "POST /get_recommendations HTTP/1.1" 200 -
+2025-03-16 02:03:30,045 - werkzeug - INFO - 127.0.0.1 - - [16/Mar/2025 02:03:30] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-03-16 02:03:52,206 - werkzeug - INFO - 127.0.0.1 - - [16/Mar/2025 02:03:52] "GET / HTTP/1.1" 200 -
+2025-03-16 02:03:52,511 - werkzeug - INFO - 127.0.0.1 - - [16/Mar/2025 02:03:52] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-03-16 02:03:52,568 - werkzeug - INFO - 127.0.0.1 - - [16/Mar/2025 02:03:52] "[33mGET /static/js/app.js HTTP/1.1[0m" 404 -
+2025-03-16 02:09:55,875 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-03-16 02:09:55,876 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-03-16 02:09:55,879 - werkzeug - INFO -  * Restarting with stat
+2025-03-16 02:09:57,763 - werkzeug - WARNING -  * Debugger is active!
+2025-03-16 02:09:57,767 - werkzeug - INFO -  * Debugger PIN: 133-299-548
+2025-03-16 02:10:02,439 - werkzeug - INFO - 127.0.0.1 - - [16/Mar/2025 02:10:02] "GET / HTTP/1.1" 200 -
+2025-03-16 02:10:02,566 - werkzeug - INFO - 127.0.0.1 - - [16/Mar/2025 02:10:02] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-03-16 02:10:02,688 - werkzeug - INFO - 127.0.0.1 - - [16/Mar/2025 02:10:02] "[33mGET /static/js/app.js HTTP/1.1[0m" 404 -
+2025-03-16 02:11:16,029 - werkzeug - INFO - 127.0.0.1 - - [16/Mar/2025 02:11:16] "POST /get_recommendations HTTP/1.1" 200 -
+2025-03-16 02:11:16,402 - werkzeug - INFO - 127.0.0.1 - - [16/Mar/2025 02:11:16] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-03-16 02:20:27,027 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-03-16 02:20:27,028 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-03-16 02:20:27,030 - werkzeug - INFO -  * Restarting with stat
+2025-03-16 02:20:28,653 - werkzeug - WARNING -  * Debugger is active!
+2025-03-16 02:20:28,657 - werkzeug - INFO -  * Debugger PIN: 133-299-548
+2025-03-16 02:20:48,954 - werkzeug - INFO - 127.0.0.1 - - [16/Mar/2025 02:20:48] "GET / HTTP/1.1" 200 -
+2025-03-16 02:20:49,059 - werkzeug - INFO - 127.0.0.1 - - [16/Mar/2025 02:20:49] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-03-16 02:20:49,200 - werkzeug - INFO - 127.0.0.1 - - [16/Mar/2025 02:20:49] "GET / HTTP/1.1" 200 -
+2025-03-16 02:20:49,361 - werkzeug - INFO - 127.0.0.1 - - [16/Mar/2025 02:20:49] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-03-16 02:20:49,548 - werkzeug - INFO - 127.0.0.1 - - [16/Mar/2025 02:20:49] "[33mGET /static/js/app.js HTTP/1.1[0m" 404 -
+2025-03-16 02:20:49,867 - werkzeug - INFO - 127.0.0.1 - - [16/Mar/2025 02:20:49] "[33mGET /static/js/app.js HTTP/1.1[0m" 404 -
+2025-03-16 02:23:31,323 - werkzeug - INFO - 127.0.0.1 - - [16/Mar/2025 02:23:31] "GET / HTTP/1.1" 200 -
+2025-03-16 02:23:31,364 - werkzeug - INFO - 127.0.0.1 - - [16/Mar/2025 02:23:31] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-03-16 02:23:31,585 - werkzeug - INFO - 127.0.0.1 - - [16/Mar/2025 02:23:31] "[33mGET /static/js/app.js HTTP/1.1[0m" 404 -
+2025-03-16 02:23:55,369 - werkzeug - INFO - 127.0.0.1 - - [16/Mar/2025 02:23:55] "[32mPOST /get_recommendations HTTP/1.1[0m" 302 -
+2025-03-16 02:23:55,382 - werkzeug - INFO - 127.0.0.1 - - [16/Mar/2025 02:23:55] "GET / HTTP/1.1" 200 -
+2025-03-16 02:23:55,568 - werkzeug - INFO - 127.0.0.1 - - [16/Mar/2025 02:23:55] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-03-16 02:23:55,744 - werkzeug - INFO - 127.0.0.1 - - [16/Mar/2025 02:23:55] "[33mGET /static/js/app.js HTTP/1.1[0m" 404 -
+2025-03-16 02:24:57,703 - __main__ - INFO - Image saved successfully: D:\Tare\Project\AI-chatbox\static/images/uploads\20250316_022457_46860dc6.jpg
+2025-03-16 02:25:03,364 - framework - INFO - Detected skin tone: deep
+2025-03-16 02:25:03,366 - __main__ - INFO - Skin tone detected: deep
+2025-03-16 02:25:08,762 - __main__ - INFO - Image metadata extracted: 7 attributes found
+2025-03-16 02:25:16,454 - __main__ - INFO - Detected 4 clothing items in image
+2025-03-16 02:25:32,422 - werkzeug - INFO - 127.0.0.1 - - [16/Mar/2025 02:25:32] "POST /get_recommendations HTTP/1.1" 200 -
+2025-03-16 02:25:32,827 - werkzeug - INFO - 127.0.0.1 - - [16/Mar/2025 02:25:32] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-03-16 02:26:29,271 - werkzeug - INFO - 127.0.0.1 - - [16/Mar/2025 02:26:29] "GET / HTTP/1.1" 200 -
+2025-03-16 02:26:35,737 - __main__ - INFO - Image saved successfully: D:\Tare\Project\AI-chatbox\static/images/uploads\20250316_022635_2228a67a.jpg
+2025-03-16 02:26:39,707 - framework - INFO - Detected skin tone: deep
+2025-03-16 02:26:39,708 - __main__ - INFO - Skin tone detected: deep
+2025-03-16 02:26:46,265 - __main__ - INFO - Image metadata extracted: 7 attributes found
+2025-03-16 02:26:53,059 - __main__ - INFO - Detected 4 clothing items in image
+2025-03-16 02:26:53,546 - framework - ERROR - Error generating recommendations: 429 Resource has been exhausted (e.g. check quota).
+2025-03-16 02:26:53,547 - __main__ - ERROR - Error getting recommendations: 429 Resource has been exhausted (e.g. check quota).
+2025-03-16 02:26:53,549 - werkzeug - INFO - 127.0.0.1 - - [16/Mar/2025 02:26:53] "[32mPOST /get_recommendations HTTP/1.1[0m" 302 -
+2025-03-16 02:27:09,913 - __main__ - INFO - Image saved successfully: D:\Tare\Project\AI-chatbox\static/images/uploads\20250316_022709_9fd61585.jpg
+2025-03-16 02:27:12,002 - framework - INFO - Detected skin tone: medium
+2025-03-16 02:27:12,003 - __main__ - INFO - Skin tone detected: medium
+2025-03-16 02:27:14,811 - __main__ - INFO - Image metadata extracted: 7 attributes found
+2025-03-16 02:27:17,417 - __main__ - INFO - Detected 1 clothing items in image
+2025-03-16 02:27:17,784 - framework - ERROR - Error generating recommendations: 429 Resource has been exhausted (e.g. check quota).
+2025-03-16 02:27:17,784 - __main__ - ERROR - Error getting recommendations: 429 Resource has been exhausted (e.g. check quota).
+2025-03-16 02:27:17,786 - werkzeug - INFO - 127.0.0.1 - - [16/Mar/2025 02:27:17] "[32mPOST /get_recommendations HTTP/1.1[0m" 302 -
+2025-03-16 02:27:17,798 - werkzeug - INFO - 127.0.0.1 - - [16/Mar/2025 02:27:17] "GET / HTTP/1.1" 200 -
+2025-03-16 02:27:18,161 - werkzeug - INFO - 127.0.0.1 - - [16/Mar/2025 02:27:18] "[33mGET /static/js/app.js HTTP/1.1[0m" 404 -
+2025-03-16 02:27:18,161 - werkzeug - INFO - 127.0.0.1 - - [16/Mar/2025 02:27:18] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-03-16 02:27:43,309 - __main__ - INFO - Image saved successfully: D:\Tare\Project\AI-chatbox\static/images/uploads\20250316_022743_02995a21.jpg
+2025-03-16 02:27:43,908 - framework - ERROR - Error detecting skin tone: 429 Resource has been exhausted (e.g. check quota).
+2025-03-16 02:27:43,911 - __main__ - INFO - Skin tone detected: medium
+2025-03-16 02:27:44,751 - framework - ERROR - Error extracting image metadata: 429 Resource has been exhausted (e.g. check quota).
+2025-03-16 02:27:44,752 - __main__ - INFO - Image metadata extracted: 3 attributes found
+2025-03-16 02:27:45,359 - framework - ERROR - Error detecting clothing items: 429 Resource has been exhausted (e.g. check quota).
+2025-03-16 02:27:45,700 - framework - ERROR - Error generating recommendations: 429 Resource has been exhausted (e.g. check quota).
+2025-03-16 02:27:45,701 - __main__ - ERROR - Error getting recommendations: 429 Resource has been exhausted (e.g. check quota).
+2025-03-16 02:27:45,703 - werkzeug - INFO - 127.0.0.1 - - [16/Mar/2025 02:27:45] "[32mPOST /get_recommendations HTTP/1.1[0m" 302 -
+2025-03-16 02:27:45,716 - werkzeug - INFO - 127.0.0.1 - - [16/Mar/2025 02:27:45] "GET / HTTP/1.1" 200 -
+2025-03-16 02:27:46,065 - werkzeug - INFO - 127.0.0.1 - - [16/Mar/2025 02:27:46] "[33mGET /static/js/app.js HTTP/1.1[0m" 404 -
+2025-03-16 02:27:46,068 - werkzeug - INFO - 127.0.0.1 - - [16/Mar/2025 02:27:46] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-03-16 02:32:19,289 - __main__ - INFO - Image saved successfully: D:\Tare\Project\AI-chatbox\static/images/uploads\20250316_023219_3366341a.jpg
+2025-03-16 02:32:22,506 - framework - INFO - Detected skin tone: medium
+2025-03-16 02:32:22,507 - __main__ - INFO - Skin tone detected: medium
+2025-03-16 02:32:25,105 - __main__ - INFO - Image metadata extracted: 7 attributes found
+2025-03-16 02:32:27,696 - __main__ - INFO - Detected 1 clothing items in image
+2025-03-16 02:32:28,065 - framework - ERROR - Error generating recommendations: 429 Resource has been exhausted (e.g. check quota).
+2025-03-16 02:32:28,066 - __main__ - ERROR - Error getting recommendations: 429 Resource has been exhausted (e.g. check quota).
+2025-03-16 02:32:28,070 - werkzeug - INFO - 127.0.0.1 - - [16/Mar/2025 02:32:28] "[32mPOST /get_recommendations HTTP/1.1[0m" 302 -
+2025-03-16 02:32:28,392 - werkzeug - INFO - 127.0.0.1 - - [16/Mar/2025 02:32:28] "GET / HTTP/1.1" 200 -
+2025-03-16 02:32:28,647 - werkzeug - INFO - 127.0.0.1 - - [16/Mar/2025 02:32:28] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-03-16 02:32:28,775 - werkzeug - INFO - 127.0.0.1 - - [16/Mar/2025 02:32:28] "GET /static/js/app.js HTTP/1.1" 200 -
+2025-03-16 02:39:05,765 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-03-16 02:39:05,765 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-03-16 02:39:05,767 - werkzeug - INFO -  * Restarting with stat
+2025-03-16 02:39:07,010 - werkzeug - WARNING -  * Debugger is active!
+2025-03-16 02:39:07,023 - werkzeug - INFO -  * Debugger PIN: 133-299-548
+2025-03-16 02:39:09,359 - werkzeug - INFO - 127.0.0.1 - - [16/Mar/2025 02:39:09] "GET / HTTP/1.1" 200 -
+2025-03-16 02:39:09,440 - werkzeug - INFO - 127.0.0.1 - - [16/Mar/2025 02:39:09] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-03-16 02:39:09,594 - werkzeug - INFO - 127.0.0.1 - - [16/Mar/2025 02:39:09] "GET /static/js/app.js HTTP/1.1" 200 -
+2025-03-16 02:39:53,952 - __main__ - ERROR - Unexpected error: 413 Request Entity Too Large: The data value transmitted exceeds the capacity limit.
+2025-03-16 02:39:54,004 - werkzeug - INFO - 127.0.0.1 - - [16/Mar/2025 02:39:54] "[32mPOST /get_recommendations HTTP/1.1[0m" 302 -
+2025-03-16 02:39:54,019 - werkzeug - INFO - 127.0.0.1 - - [16/Mar/2025 02:39:54] "GET / HTTP/1.1" 200 -
+2025-03-16 02:39:54,158 - werkzeug - INFO - 127.0.0.1 - - [16/Mar/2025 02:39:54] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-03-16 02:39:54,384 - werkzeug - INFO - 127.0.0.1 - - [16/Mar/2025 02:39:54] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2025-03-16 02:40:23,514 - __main__ - INFO - Image saved successfully: D:\Tare\Project\AI-chatbox\static/images/uploads\20250316_024023_5f33d48b.jpg
+2025-03-16 02:40:29,016 - framework - INFO - Detected skin tone: deep
+2025-03-16 02:40:29,017 - __main__ - INFO - Skin tone detected: deep
+2025-03-16 02:40:34,410 - __main__ - INFO - Image metadata extracted: 7 attributes found
+2025-03-16 02:40:41,244 - __main__ - INFO - Detected 4 clothing items in image
+2025-03-16 02:40:41,678 - framework - ERROR - Error generating recommendations: 429 Resource has been exhausted (e.g. check quota).
+2025-03-16 02:40:41,680 - __main__ - ERROR - Error getting recommendations: 429 Resource has been exhausted (e.g. check quota).
+2025-03-16 02:40:41,687 - werkzeug - INFO - 127.0.0.1 - - [16/Mar/2025 02:40:41] "[32mPOST /get_recommendations HTTP/1.1[0m" 302 -
+2025-03-16 02:40:42,013 - werkzeug - INFO - 127.0.0.1 - - [16/Mar/2025 02:40:42] "GET / HTTP/1.1" 200 -
+2025-03-16 02:40:42,272 - werkzeug - INFO - 127.0.0.1 - - [16/Mar/2025 02:40:42] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-03-16 02:40:42,387 - werkzeug - INFO - 127.0.0.1 - - [16/Mar/2025 02:40:42] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2025-03-16 02:46:56,302 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-03-16 02:46:56,303 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-03-16 02:46:56,305 - werkzeug - INFO -  * Restarting with stat
+2025-03-16 02:46:58,081 - werkzeug - WARNING -  * Debugger is active!
+2025-03-16 02:46:58,086 - werkzeug - INFO -  * Debugger PIN: 133-299-548
+2025-03-16 02:47:04,870 - werkzeug - INFO - 127.0.0.1 - - [16/Mar/2025 02:47:04] "GET / HTTP/1.1" 200 -
+2025-03-16 02:47:04,996 - werkzeug - INFO - 127.0.0.1 - - [16/Mar/2025 02:47:04] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-03-16 02:47:05,122 - werkzeug - INFO - 127.0.0.1 - - [16/Mar/2025 02:47:05] "GET /static/js/app.js HTTP/1.1" 200 -
+2025-03-16 02:47:52,144 - werkzeug - INFO - 127.0.0.1 - - [16/Mar/2025 02:47:52] "[32mPOST /get_recommendations HTTP/1.1[0m" 302 -
+2025-03-16 02:47:52,161 - werkzeug - INFO - 127.0.0.1 - - [16/Mar/2025 02:47:52] "GET / HTTP/1.1" 200 -
+2025-03-16 02:47:52,366 - werkzeug - INFO - 127.0.0.1 - - [16/Mar/2025 02:47:52] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-03-16 02:47:52,533 - werkzeug - INFO - 127.0.0.1 - - [16/Mar/2025 02:47:52] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2025-03-16 02:48:25,640 - werkzeug - INFO - 127.0.0.1 - - [16/Mar/2025 02:48:25] "GET / HTTP/1.1" 200 -
+2025-03-16 17:54:28,838 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-03-16 17:54:28,839 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-03-16 17:54:28,840 - werkzeug - INFO -  * Restarting with stat
+2025-03-16 17:54:30,220 - werkzeug - WARNING -  * Debugger is active!
+2025-03-16 17:54:30,224 - werkzeug - INFO -  * Debugger PIN: 133-299-548
+2025-03-16 17:54:33,254 - werkzeug - INFO - 127.0.0.1 - - [16/Mar/2025 17:54:33] "GET / HTTP/1.1" 200 -
+2025-03-16 17:54:33,387 - werkzeug - INFO - 127.0.0.1 - - [16/Mar/2025 17:54:33] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-03-16 17:54:33,502 - werkzeug - INFO - 127.0.0.1 - - [16/Mar/2025 17:54:33] "GET /static/js/app.js HTTP/1.1" 200 -
+2025-03-16 17:54:33,968 - werkzeug - INFO - 127.0.0.1 - - [16/Mar/2025 17:54:33] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-03-16 17:55:15,840 - __main__ - INFO - Image saved successfully: D:\Tare\Project\AI-chatbox\static/images/uploads\20250316_175515_da445dd0.jpg
+2025-03-16 17:55:22,040 - framework - INFO - Detected skin tone: deep
+2025-03-16 17:55:22,041 - __main__ - INFO - Skin tone detected: deep
+2025-03-16 17:55:27,701 - __main__ - INFO - Image metadata extracted: 7 attributes found
+2025-03-16 17:55:35,879 - __main__ - INFO - Detected 4 clothing items in image
+2025-03-16 17:55:36,321 - framework - ERROR - Error generating recommendations: 429 Resource has been exhausted (e.g. check quota).
+2025-03-16 17:55:36,323 - __main__ - ERROR - Error getting recommendations: 429 Resource has been exhausted (e.g. check quota).
+2025-03-16 17:55:36,328 - werkzeug - INFO - 127.0.0.1 - - [16/Mar/2025 17:55:36] "[32mPOST /get_recommendations HTTP/1.1[0m" 302 -
+2025-03-16 17:55:36,649 - werkzeug - INFO - 127.0.0.1 - - [16/Mar/2025 17:55:36] "GET / HTTP/1.1" 200 -
+2025-03-16 17:55:36,922 - werkzeug - INFO - 127.0.0.1 - - [16/Mar/2025 17:55:36] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-03-16 17:55:37,016 - werkzeug - INFO - 127.0.0.1 - - [16/Mar/2025 17:55:37] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2025-03-16 17:56:26,157 - werkzeug - INFO -  * Detected change in 'D:\\Tare\\Project\\AI-chatbox\\app.py', reloading
+2025-03-16 17:56:28,562 - werkzeug - INFO -  * Restarting with stat
+2025-03-16 17:56:30,510 - werkzeug - WARNING -  * Debugger is active!
+2025-03-16 17:56:30,512 - werkzeug - INFO -  * Debugger PIN: 133-299-548
+2025-03-16 17:57:00,269 - werkzeug - INFO - 127.0.0.1 - - [16/Mar/2025 17:57:00] "POST /get_recommendations HTTP/1.1" 200 -
+2025-03-16 17:57:00,934 - werkzeug - INFO - 127.0.0.1 - - [16/Mar/2025 17:57:00] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-03-16 17:57:36,890 - werkzeug - INFO - 127.0.0.1 - - [16/Mar/2025 17:57:36] "GET / HTTP/1.1" 200 -
+2025-03-16 17:57:56,467 - __main__ - INFO - Image saved successfully: D:\Tare\Project\AI-chatbox\static/images/uploads\20250316_175756_57efd645.jpg
+2025-03-16 17:58:00,858 - framework - INFO - Detected skin tone: deep
+2025-03-16 17:58:00,872 - __main__ - INFO - Skin tone detected: deep
+2025-03-16 17:58:07,308 - __main__ - INFO - Image metadata extracted: 7 attributes found
+2025-03-16 17:58:14,558 - __main__ - INFO - Detected 4 clothing items in image
+2025-03-16 17:58:15,013 - framework - ERROR - Error generating recommendations: 429 Resource has been exhausted (e.g. check quota).
+2025-03-16 17:58:15,014 - __main__ - ERROR - Error getting recommendations: 429 Resource has been exhausted (e.g. check quota).
+2025-03-16 17:58:15,016 - werkzeug - INFO - 127.0.0.1 - - [16/Mar/2025 17:58:15] "[32mPOST /get_recommendations HTTP/1.1[0m" 302 -
+2025-03-16 17:58:15,347 - werkzeug - INFO - 127.0.0.1 - - [16/Mar/2025 17:58:15] "GET / HTTP/1.1" 200 -
+2025-03-16 17:58:15,590 - werkzeug - INFO - 127.0.0.1 - - [16/Mar/2025 17:58:15] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-03-16 17:58:15,699 - werkzeug - INFO - 127.0.0.1 - - [16/Mar/2025 17:58:15] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2025-03-16 17:59:33,602 - werkzeug - INFO -  * Detected change in 'D:\\Tare\\Project\\AI-chatbox\\app.py', reloading
+2025-03-16 17:59:35,942 - werkzeug - INFO -  * Restarting with stat
+2025-03-16 17:59:37,735 - werkzeug - WARNING -  * Debugger is active!
+2025-03-16 17:59:37,738 - werkzeug - INFO -  * Debugger PIN: 133-299-548
+2025-03-16 18:00:00,811 - werkzeug - INFO -  * Detected change in 'D:\\Tare\\Project\\AI-chatbox\\framework.py', reloading
+2025-03-16 18:00:03,038 - werkzeug - INFO -  * Restarting with stat
+2025-03-16 18:00:04,535 - werkzeug - WARNING -  * Debugger is active!
+2025-03-16 18:00:04,537 - werkzeug - INFO -  * Debugger PIN: 133-299-548
+2025-03-16 18:00:09,814 - werkzeug - INFO - 127.0.0.1 - - [16/Mar/2025 18:00:09] "GET / HTTP/1.1" 200 -
+2025-03-16 18:00:09,915 - werkzeug - INFO - 127.0.0.1 - - [16/Mar/2025 18:00:09] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-03-16 18:00:10,078 - werkzeug - INFO - 127.0.0.1 - - [16/Mar/2025 18:00:10] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2025-03-16 18:00:34,787 - __main__ - INFO - Image saved successfully: D:\Tare\Project\AI-chatbox\static/images/uploads\20250316_180034_84393e6d.jpg
+2025-03-16 18:00:40,195 - framework - INFO - Detected skin tone: deep
+2025-03-16 18:00:40,197 - __main__ - INFO - Skin tone detected: deep
+2025-03-16 18:00:45,410 - __main__ - INFO - Image metadata extracted: 7 attributes found
+2025-03-16 18:00:53,216 - __main__ - INFO - Detected 4 clothing items in image
+2025-03-16 18:00:53,650 - framework - ERROR - Error generating recommendations: 429 Resource has been exhausted (e.g. check quota).
+2025-03-16 18:00:53,651 - __main__ - ERROR - Error getting recommendations: 429 Resource has been exhausted (e.g. check quota).
+2025-03-16 18:00:53,657 - werkzeug - INFO - 127.0.0.1 - - [16/Mar/2025 18:00:53] "[32mPOST /get_recommendations HTTP/1.1[0m" 302 -
+2025-03-16 18:00:54,006 - werkzeug - INFO - 127.0.0.1 - - [16/Mar/2025 18:00:54] "GET / HTTP/1.1" 200 -
+2025-03-16 18:00:54,255 - werkzeug - INFO - 127.0.0.1 - - [16/Mar/2025 18:00:54] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-03-16 18:00:54,357 - werkzeug - INFO - 127.0.0.1 - - [16/Mar/2025 18:00:54] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2025-03-16 18:02:19,412 - werkzeug - INFO -  * Detected change in 'D:\\Tare\\Project\\AI-chatbox\\framework.py', reloading
+2025-03-16 18:02:21,612 - werkzeug - INFO -  * Restarting with stat
+2025-03-16 18:02:23,045 - werkzeug - WARNING -  * Debugger is active!
+2025-03-16 18:02:23,047 - werkzeug - INFO -  * Debugger PIN: 133-299-548
+2025-03-16 18:02:58,908 - __main__ - INFO - Image saved successfully: D:\Tare\Project\AI-chatbox\static/images/uploads\20250316_180258_59ca09ba.jpg
+2025-03-16 18:03:04,043 - framework - INFO - Detected skin tone: deep
+2025-03-16 18:03:04,045 - __main__ - INFO - Skin tone detected: deep
+2025-03-16 18:03:09,353 - __main__ - INFO - Image metadata extracted: 7 attributes found
+2025-03-16 18:03:16,040 - __main__ - INFO - Detected 4 clothing items in image
+2025-03-16 18:03:16,399 - framework - ERROR - Error generating recommendations: 429 Resource has been exhausted (e.g. check quota).
+2025-03-16 18:03:16,401 - framework - WARNING - API quota exceeded, retrying in 1 seconds...
+2025-03-16 18:03:17,799 - framework - ERROR - Error generating recommendations: 429 Resource has been exhausted (e.g. check quota).
+2025-03-16 18:03:17,800 - framework - WARNING - API quota exceeded, retrying in 2 seconds...
+2025-03-16 18:03:32,786 - werkzeug - INFO - 127.0.0.1 - - [16/Mar/2025 18:03:32] "POST /get_recommendations HTTP/1.1" 200 -
+2025-03-16 18:03:33,264 - werkzeug - INFO - 127.0.0.1 - - [16/Mar/2025 18:03:33] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-03-16 18:03:40,228 - werkzeug - INFO - 127.0.0.1 - - [16/Mar/2025 18:03:40] "GET / HTTP/1.1" 200 -
+2025-03-16 18:03:40,522 - werkzeug - INFO - 127.0.0.1 - - [16/Mar/2025 18:03:40] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-03-16 18:03:40,571 - werkzeug - INFO - 127.0.0.1 - - [16/Mar/2025 18:03:40] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2025-03-16 18:06:47,707 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-03-16 18:06:47,708 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-03-16 18:06:47,709 - werkzeug - INFO -  * Restarting with stat
+2025-03-16 18:06:49,099 - werkzeug - WARNING -  * Debugger is active!
+2025-03-16 18:06:49,102 - werkzeug - INFO -  * Debugger PIN: 133-299-548
+2025-03-16 18:06:51,632 - werkzeug - INFO - 127.0.0.1 - - [16/Mar/2025 18:06:51] "GET / HTTP/1.1" 200 -
+2025-03-16 18:06:51,708 - werkzeug - INFO - 127.0.0.1 - - [16/Mar/2025 18:06:51] "GET /static/css/styles.css HTTP/1.1" 200 -
+2025-03-16 18:06:51,870 - werkzeug - INFO - 127.0.0.1 - - [16/Mar/2025 18:06:51] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2025-03-16 18:10:35,257 - werkzeug - INFO - 127.0.0.1 - - [16/Mar/2025 18:10:35] "GET / HTTP/1.1" 200 -
+2025-03-16 18:10:35,290 - werkzeug - INFO - 127.0.0.1 - - [16/Mar/2025 18:10:35] "GET /static/css/styles.css HTTP/1.1" 200 -
+2025-03-16 18:10:35,518 - werkzeug - INFO - 127.0.0.1 - - [16/Mar/2025 18:10:35] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2025-03-16 18:11:48,506 - werkzeug - INFO - 127.0.0.1 - - [16/Mar/2025 18:11:48] "POST /get_recommendations HTTP/1.1" 200 -
+2025-03-16 18:11:48,862 - werkzeug - INFO - 127.0.0.1 - - [16/Mar/2025 18:11:48] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-03-16 18:12:06,437 - werkzeug - INFO - 127.0.0.1 - - [16/Mar/2025 18:12:06] "GET / HTTP/1.1" 200 -
+2025-03-16 18:12:06,681 - werkzeug - INFO - 127.0.0.1 - - [16/Mar/2025 18:12:06] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-03-16 18:12:06,809 - werkzeug - INFO - 127.0.0.1 - - [16/Mar/2025 18:12:06] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2025-03-16 18:18:12,176 - werkzeug - INFO - 127.0.0.1 - - [16/Mar/2025 18:18:12] "GET / HTTP/1.1" 200 -
+2025-03-16 18:18:12,216 - werkzeug - INFO - 127.0.0.1 - - [16/Mar/2025 18:18:12] "GET /static/css/styles.css HTTP/1.1" 200 -
+2025-03-16 18:18:12,399 - werkzeug - INFO - 127.0.0.1 - - [16/Mar/2025 18:18:12] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2025-03-16 18:21:42,393 - werkzeug - INFO - 127.0.0.1 - - [16/Mar/2025 18:21:42] "POST /get_recommendations HTTP/1.1" 200 -
+2025-03-16 18:21:42,770 - werkzeug - INFO - 127.0.0.1 - - [16/Mar/2025 18:21:42] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-03-16 18:22:03,107 - werkzeug - INFO - 127.0.0.1 - - [16/Mar/2025 18:22:03] "GET / HTTP/1.1" 200 -
+2025-03-16 18:22:03,344 - werkzeug - INFO - 127.0.0.1 - - [16/Mar/2025 18:22:03] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-03-16 18:22:03,351 - werkzeug - INFO - 127.0.0.1 - - [16/Mar/2025 18:22:03] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2025-03-16 18:22:42,101 - werkzeug - INFO - 127.0.0.1 - - [16/Mar/2025 18:22:42] "POST /get_recommendations HTTP/1.1" 200 -
+2025-03-16 18:22:42,456 - werkzeug - INFO - 127.0.0.1 - - [16/Mar/2025 18:22:42] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-03-16 18:23:01,377 - werkzeug - INFO - 127.0.0.1 - - [16/Mar/2025 18:23:01] "GET / HTTP/1.1" 200 -
+2025-03-16 18:23:01,619 - werkzeug - INFO - 127.0.0.1 - - [16/Mar/2025 18:23:01] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-03-16 18:23:01,626 - werkzeug - INFO - 127.0.0.1 - - [16/Mar/2025 18:23:01] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2025-03-16 18:25:49,359 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-03-16 18:25:49,360 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-03-16 18:25:49,361 - werkzeug - INFO -  * Restarting with stat
+2025-03-16 18:25:51,148 - werkzeug - WARNING -  * Debugger is active!
+2025-03-16 18:25:51,151 - werkzeug - INFO -  * Debugger PIN: 133-299-548
+2025-03-16 18:25:54,194 - werkzeug - INFO - 127.0.0.1 - - [16/Mar/2025 18:25:54] "GET / HTTP/1.1" 200 -
+2025-03-16 18:25:54,288 - werkzeug - INFO - 127.0.0.1 - - [16/Mar/2025 18:25:54] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2025-03-16 18:25:54,415 - werkzeug - INFO - 127.0.0.1 - - [16/Mar/2025 18:25:54] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-03-16 18:26:20,466 - werkzeug - INFO - 127.0.0.1 - - [16/Mar/2025 18:26:20] "POST /get_recommendations HTTP/1.1" 200 -
+2025-03-16 18:26:20,827 - werkzeug - INFO - 127.0.0.1 - - [16/Mar/2025 18:26:20] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-03-16 18:27:06,498 - werkzeug - INFO -  * Detected change in 'D:\\Tare\\Project\\AI-chatbox\\app.py', reloading
+2025-03-16 18:27:08,803 - werkzeug - INFO -  * Restarting with stat
