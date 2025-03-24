@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Order Summary</title>
+    <style>
+        body { font-family: Arial, sans-serif; margin: 20px; height: 100%; }
+        table { width: 100%; border-collapse: collapse; margin-bottom: 20px; }
+        th, td { border: 1px solid #ccc; padding: 10px; text-align: left; }
+        th { background-color: #f4f4f4; }
+        h2 { margin-top: 30px; }
+        .track-button, .payment-button {
+            background-color: black;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            font-size: 14px;
+            border-radius: 5px;
+            cursor: pointer;
+            text-decoration: none;
+        }
+        .track-button:hover, .payment-button:hover { background-color: gray; }
+        @media only screen and (max-width: 600px) {
+  body {
+    font-size: 12px; /* Adjust font size for smaller screens */
+  }
+
+  .track-button, .payment-button {
+    padding: 8px 16px;
+    font-size: 12px; /* Decrease button font size */
+  }
+
+  th, td {
+    padding: 8px; /* Adjust table padding */
+  }
+}
+
+    
+    
+    
+    </style>
+</head>
+<body>
+    <h1>Order Summary</h1>
+
+    <h2>Products</h2>
+    <table>
+        <thead>
+            <tr>
+                <th>Product Name</th>
+                <th>Price</th>
+                <th>Size</th>
+                <th>Quantity</th>
+                <th>Subtotal</th>
+                <th>Status</th>
+                <th>Actions</th>
+            </tr>
+        </thead>
+        <tbody id="orderTableBody"></tbody>
+    </table>
+    <h2>Total Price: ₹<span id="totalPrice">0</span></h2>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            const userDetails = JSON.parse(localStorage.getItem('userDetails')) || {};
+            const cart = JSON.parse(localStorage.getItem('cart')) || [];
+            const orderTableBody = document.getElementById('orderTableBody');
+            const totalPriceElement = document.getElementById('totalPrice');
+            let totalPrice = 0;
+
+            // Populate the order table
+            cart.forEach((product, index) => {
+                const subtotal = product.price * product.quantity;
+                let status = product.status || 'Payment Pending'; // Default to 'Payment Pending'
+
+                const row = document.createElement('tr');
+                row.innerHTML = `
+                    <td>${product.name}</td>
+                    <td>₹${product.price.toFixed(2)}</td>
+                    <td>${product.size}</td>
+                    <td>${product.quantity}</td>
+                    <td>₹${subtotal.toFixed(2)}</td>
+                    <td id="status-${index}">${status}</td>
+                    <td>
+                        ${
+                            status === 'Payment Pending' 
+                                ? `<button class="payment-button" onclick="handlePayment(${index})">Pay Now</button>` 
+                                : status === 'Order Dispatched' 
+                                ? `<a class="track-button" href="track.html?username=${userDetails.username}">Track</a>` 
+                                : ''
+                        }
+                    </td>
+                `;
+
+                totalPrice += subtotal;
+                orderTableBody.appendChild(row);
+            });
+
+            // Update total price
+            totalPriceElement.innerText = totalPrice.toFixed(2);
+
+            // Handle payment
+            window.handlePayment = (index) => {
+                const statusElement = document.getElementById(`status-${index}`);
+                if (statusElement.innerText === 'Payment Pending') {
+                    statusElement.innerText = 'Pending'; // After payment, update status to 'Pending'
+                    cart[index].status = 'Pending';
+                    localStorage.setItem('cart', JSON.stringify(cart)); // Save updated cart
+                    alert('Payment successful! Order status updated to Pending.');
+                }
+            };
+
+            // Simulate admin approval
+            const simulateAdminApproval = () => {
+                cart.forEach((product, index) => {
+                    const statusElement = document.getElementById(`status-${index}`);
+                    
+                    if (statusElement.innerText === 'Pending') {
+                        statusElement.innerText = 'Order Dispatched'; // Admin approves
+                        cart[index].status = 'Order Dispatched';
+                    }
+                });
+
+                localStorage.setItem('cart', JSON.stringify(cart)); // Save updated cart
+                alert('Admin has approved the order(s). Status updated to Order Dispatched.');
+            };
+
+            // Admin approval trigger (Example: You can call this function when the admin approves)
+            window.triggerAdminApproval = () => {
+                simulateAdminApproval();
+            };
+        });
+    </script>
+</body>
+</html>

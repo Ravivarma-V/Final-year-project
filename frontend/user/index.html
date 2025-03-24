@@ -1,0 +1,726 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ClassyCloset</title>
+
+    <!-- Bootstrap 5 CSS link -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <!-- Custom Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,opsz,wght@0,6..96,400..900;1,6..96,400..900&display=swap"
+        rel="stylesheet">
+
+    <!-- Font Awesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.8.1/font/bootstrap-icons.min.css">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="../styling/style.css">
+    
+<style>
+    .box-1 h4,h3{
+        margin-top:25px;
+        font-size: medium;
+    }
+</style>
+</head>
+
+<body style="background-color: #E8EBE9; overflow-y: hidden;">
+    <section class="header">
+        <nav class="forlap">
+            <h1>
+                ClassyCloset
+            </h1>
+            <ul>
+                <li><a href="./index.html">Home</a></li>
+                <li><a href="./product.html">Products</a></li>
+                <li><a href="./about.html">About</a></li>
+                <li><a href="./contact.html">Connect</a></li>
+            </ul>
+            <div class="social-container">
+                <!-- Search Icon -->
+                <i class="bi bi-search"></i>
+                <a id="cartIcon" href="./cart.html" style="color:black; display:none;">
+                    <i class="bi bi-cart"></i>
+                </a>
+                                    <!-- Profile Icon -->
+                <a href="../user/login.html"><i  style="color: black;"   class="bi bi-person"></i></a>
+            </div>
+        </nav>
+        <nav class="forphone">
+            <h1 class="logophone">
+                ClassyCloset
+            </h1>
+            <i      class="bi bi-list" id="open"  class="bar"    style="font-size: 34px; margin-top: 16px;
+            margin: 10px; "></i>
+            <ul id="navbar" >
+                <div>
+                    <i class="bi bi-x-lg" style="font-size: larger;font-weight: 900;" id="close"></i>
+
+                  
+                  </div>
+                <li><a href="./index.html">Home</a></li>
+                <li><a href="./product.html">Products</a></li>
+                <li><a href="./about.html">About</a></li>
+                <li><a href="./contact.html">Connect</a></li>
+            </ul>
+        </nav>
+
+
+        <!-- Bootstrap Carousel -->
+        <div id="carouselExample" class="carousel slide"  data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <div class="header-content">
+                        <div class="row">
+                            <div class="col-1">
+                                <h1>Discover Deals You Can't Resist!</h1>
+                                <p class="forlap-p">Elevate your wardrobe with our stunning collection for both men and women. From chic
+                                    casual wear to sophisticated formal attire, we have it all at unbeatable prices.</p>
+                                    <p class="forphone-p">Elevate your wardrobe with our stunning collection for both men and women.</p>
+                                <div class="button-container">
+                                   <button>Shop Now</button>
+                                    <button>Shop with AI</button>
+                                </div>
+                                <div class="icon-container">
+                                    <!-- Instagram Icon -->
+                                    <i class="bi bi-instagram"></i>
+
+                                    <!-- Facebook Icon -->
+                                    <i class="bi bi-facebook"></i>
+
+                                    <!-- Twitter Icon -->
+                                    <i class="bi bi-twitter"></i>
+
+                                </div>
+                            </div>
+                            <div class="col-2">
+                                <img src="../../pictures/pngwing.com (1).png" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="carousel-item">
+                    <div class="header-content">
+                        <div class="row">
+                            <div class="col-1">
+                                <h1>Exclusive Offers Just for You!</h1>
+                                <p class="forlap-p">Explore our handpicked selection of trendy and stylish outfits. Enjoy special
+                                    discounts and limited-time deals on your favorite brands.</p>
+                                    <p class="forphone-p">Explore our handpicked selection of trendy and stylish outfits.</p>
+                               
+                                    <div class="button-container">
+                                    <button>Explore Now</button>
+                                    <button>Shop with AI</button>
+                                </div>
+                                <div class="icon-container">
+                                    <!-- Instagram Icon -->
+                                    <i class="bi bi-instagram"></i>
+
+                                    <!-- Facebook Icon -->
+                                    <i class="bi bi-facebook"></i>
+
+                                    <!-- Twitter Icon -->
+                                    <i class="bi bi-twitter"></i>
+
+                                </div>
+                            </div>
+                            <div class="col-2">
+                                <img src="../../pictures/p_img21-removebg-preview.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="carousel-item">
+                    <div class="header-content">
+                        <div class="row">
+                            <div class="col-1">
+                                <h1>Unmatched Quality, Unbeatable Prices!</h1>
+                                <p class="forlap-p">From everyday essentials to statement pieces, our collection promises unmatched
+                                    quality at prices you'll love. Don't miss out on our latest arrivals.</p>
+                                    <p class="forphone-p">From everyday essentials to statement pieces, our collection promises unmatched
+                                        quality at prices you'll love.</p>
+                                    <div class="button-container">
+                                    <button>Discover More</button>
+                                    <button>Shop with AI</button>
+                                </div>
+                                <div class="icon-container">
+                                    <!-- Instagram Icon -->
+                                    <i class="bi bi-instagram"></i>
+
+                                    <!-- Facebook Icon -->
+                                    <i class="bi bi-facebook"></i>
+
+                                    <!-- Twitter Icon -->
+                                    <i class="bi bi-twitter"></i>
+
+                                </div>
+                            </div>
+                            <div class="col-2">
+                                <img src="../../pictures/p_img48-removebg-preview.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Carousel Controls -->
+        </div>
+    </section>
+    <section class="Products">
+        <div class="products-container" style="margin-top:100px ;">
+            <p class="headings">Our Products</p>
+            <div class="products-box">
+                <div class="box-1"  data-price="550"   data-id = '20' data-new="true" onclick= "redirectToProductDetails(20)">
+                    <img src="../../pictures/baby 1.jpeg"  style="overflow: hidden;" alt="">
+                    
+                    
+                    <h4>Red Dress with Bow</h4>
+                    <h6>For Baby</h6>
+                    <div class="star-rating">
+                        <span class="star">&#9733;</span>
+                        <span class="star">&#9733;</span>
+                        <span class="star">&#9733;</span>
+                        <span class="star">&#9733;</span>
+                    </div>
+                    <div class="cart-container">
+
+                        <div class="price">
+                            <h5>500$</h5>
+                        </div>
+                        <div class="cart">
+                            <button>Add</button>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="box-1" data-id = '21' data-new="true" onclick= "redirectToProductDetails(21)">
+                    <img src="../../pictures/baby2.jpeg" >
+                    <h4>Multicolor Dress</h4>
+                    <h6>For Baby</h6>
+                    <div class="star-rating">
+                        <span class="star">&#9733;</span>
+                        <span class="star">&#9733;</span>
+                        <span class="star">&#9733;</span>
+                    </div>
+                    <div class="cart-container">
+
+                        <div class="price">
+                            <h5>300$</h5>
+                        </div>
+                        <div class="cart">
+                            <button>Add</button>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="box-1 "        data-id="22" data-new="true" onclick= "redirectToProductDetails(22)">
+                    <img src="../../pictures/baby3.jpeg"  style="overflow: hidden;" alt=""  >
+                    <h4>Green Floral Dress</h4>
+                    <h6>For Baby</h6>
+                    <div class="star-rating">
+                        <span class="star">&#9733;</span>
+                        <span class="star">&#9733;</span>
+                        <span class="star">&#9733;</span>
+                        <span class="star">&#9733;</span>
+                    </div>
+                    <div class="cart-container">
+                        <div class="price">
+                            <h5>400$</h5>
+                        </div>
+                        <div class="cart">
+                            <button>Add</button>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="box-1"  data-id="23" data-new="true"  onclick="redirectToProductDetails(23)">
+                    <img src="../../pictures/baby4.jpeg" alt="">
+                
+                    <h4>Purple Dress with Bow</h4>
+                    <h6>For Baby</h6>
+                    <div class="star-rating">
+                        <span class="star">&#9733;</span>
+                        <span class="star">&#9733;</span>
+                        <span class="star">&#9733;</span>
+                        <span class="star">&#9733;</span>
+                        <span class="star">&#9733;</span>
+                    </div>
+                    <div class="cart-container">
+                        <div class="price">
+                            <h5>$800</h5>
+                        </div>
+                        <div class="cart">
+                            <button>Add</button>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="box-1"  data-id="24" data-new="true"  onclick="redirectToProductDetails(24)">
+                    <img src="../../pictures/girl1.jpeg" alt="">
+                
+                    <h4>Olive Green Shirt</h4>
+                    <h6>For Girls</h6>
+                    <div class="star-rating">
+                        <span class="star">&#9733;</span>
+                        <span class="star">&#9733;</span>
+                        <span class="star">&#9733;</span>
+                        <span class="star">&#9733;</span>
+                        <span class="star">&#9733;</span>
+                    </div>
+                    <div class="cart-container">
+                        <div class="price">
+                            <h5>$900</h5>
+                        </div>
+                        <div class="cart">
+                            <button>Add</button>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="box-1"       data-id="25" data-new="true"   onclick="redirectToProductDetails(25)">
+                    <img src="../../pictures/girl2.jpeg" alt="">
+                    <h4>Striped Shirt</h4>
+                    <h6>For Girls</h6>
+                    <div class="star-rating">
+                        <span class="star">&#9733;</span>
+                        <span class="star">&#9733;</span>
+                        <span class="star">&#9733;</span>
+                        <span class="star">&#9733;</span>
+                        <span class="star">&#9733;</span>
+                    </div>
+                    <div class="cart-container">
+                        <div class="price">
+                            <h5>$500</h5>
+                        </div>
+                        <div class="cart">
+                            <button>Add</button>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="box-1" data-id="26" data-new="true"   onclick="redirectToProductDetails(26)">
+                    <img src="../../pictures/boy1.jpeg" alt="" style="overflow: hidden;">
+        
+                    <h4>Mountain Print T-shirt</h4>
+                    <h6>For Men</h6>
+                    <div class="star-rating">
+                        <span class="star">&#9733;</span>
+                        <span class="star">&#9733;</span>
+                        <span class="star">&#9733;</span>
+                        <span class="star">&#9733;</span>
+                        <span class="star">&#9733;</span>
+                    </div>
+                    <div class="cart-container">
+                        <div class="price">
+                            <h5>$560</h5>
+                        </div>
+                        <div class="cart">
+                            <button>Add</button>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="box-1" data-id="27" data-new="true"   onclick="redirectToProductDetails(27)">
+                    <img src="../../pictures/f1.jpg" alt="">
+                    <h4>Yellow Hawaiian Shirt</h4>
+                    <h6>For Men</h6>
+                    <div class="star-rating">
+                        <span class="star">&#9733;</span>
+                        <span class="star">&#9733;</span>
+                        <span class="star">&#9733;</span>
+                        <span class="star">&#9733;</span>
+                        <span class="star">&#9733;</span>
+                    </div>
+                    <div class="cart-container">
+                        <div class="price">
+                            <h5>$400</h5>
+                        </div>
+                        <div class="cart">
+                            <button>Add</button>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+
+
+
+
+
+
+    </section>
+    <section class="discount-box">
+
+        <div class="discount-box-conatiner">
+            <div class="box">
+                <h2>Winter Is Coming</h2>
+                <h1>Discount upto 40% - All T-shirts</h1>
+                <button>Learn More</button>
+                <canvas class="particles"></canvas>
+            </div>
+        </div>
+    </section>
+    <section class="Products-new">
+        <div class="products-container" style="margin-top:100px ;">
+            <p class="headings">New Arrivals</p>
+            <div class="products-box">
+                <div class="box-1" data-id="28" data-new="true" onclick= "redirectToProductDetails(28)"  style="overflow: hidden;">
+                    <img src="../../pictures/boy2.jpeg"   alt="">
+                    <h6>For Men</h6>
+                    <h3>Itachi T-shirt</h3>
+                    <div class="star-rating">
+                        <span class="star">&#9733;</span>
+                        <span class="star">&#9733;</span>
+                        <span class="star">&#9733;</span>
+                        <span class="star">&#9733;</span>
+                        <span class="star">&#9733;</span>
+                    </div>
+                    <div class="cart-container">
+                        <div class="price">
+                            <h5>450$</h5>
+                        </div>
+                        <div class="cart">
+                            <button>Add</button>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="box-1" data-id="1" data-new="true"  onclick= "redirectToProductDetails(1)"   >
+                    <img src="../../pictures/boy3.jpeg"   style="overflow: hidden;" alt="">
+                    <p>For WoMen</p>
+                    <h3>Geometric Lion T-shirt </h3>
+                    <div class="star-rating">
+                        <span class="star">&#9733;</span>
+                        <span class="star">&#9733;</span>
+                        <span class="star">&#9733;</span>
+                        <span class="star">&#9733;</span>
+                        <span class="star">&#9733;</span>
+                    </div>
+                    <div class="cart-container">
+
+                        <div class="price">
+                            <h5>500$</h5>
+                        </div>
+                        <div class="cart">
+                            <button>Add</button>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="box-1" data-id="29" data-new="true" onclick= "redirectToProductDetails(29)"    style="overflow: hidden;">
+                    <img src="../../pictures/boy4.jpeg"   style="overflow: hidden;"  alt="">
+                    <h6>For Men</h6>
+                    <h3>Nautical Explorer Tee Shirt</h3>
+                    <div class="star-rating">
+                        <span class="star">&#9733;</span>
+                        <span class="star">&#9733;</span>
+                        <span class="star">&#9733;</span>
+                     
+                    </div>
+                    <div class="cart-container">
+
+                        <div class="price">
+                            <h5>200$</h5>
+                        </div>
+                        <div class="cart">
+                            <button>Add</button>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="box-1"  data-id="28" data-new="true" onclick= "redirectToProductDetails(30)">
+                    <img src="../../pictures/boy5.jpeg"  alt=""  style="overflow: hidden;">
+                    <h6>For Men</h6>
+                    <h3>Tropical Serenity Tee</h3>
+                    <div class="star-rating">
+                        <span class="star">&#9733;</span>
+                        <span class="star">&#9733;</span>
+                        <span class="star">&#9733;</span>
+                    </div>
+                    <div class="cart-container">
+                        <div class="price">
+                            <h5>250$</h5>
+                        </div>
+                        <div class="cart">
+                            <button>Add</button>
+                        </div>
+                    </div>
+
+                </div>
+                
+            </div>
+        </div>
+
+        <div class="banner-colletcion">
+
+            <div class="row">
+                <div class="col-1">
+                    <div class="box-1-collection">
+                        <div class="term-1">
+                            <div  style="margin-left: 40px;" class="inner-tags">
+                                <h2>Summer Dress Collection</h2>
+                                <h3>Up to 50% Off</h3>
+                                <p>Explore our latest summer dress collection and enjoy unbeatable discounts. Shop now
+                                    and make a fashion statement.</p>
+
+                            </div>
+                            <img src="../../pictures/b10.jpg" alt="">
+                        </div>
+                        <div class="term-2">
+                            <div class="inner-tags">
+                                <h2>Flash Sale: Evening Gowns</h2>
+                                <h3>Limited Time Offer</h3>
+                                <p>Get your perfect evening gown at incredible prices. Don't miss out on our exclusive
+                                    flash sale. Hurry, while stocks last!</p>
+                            </div>
+                            <img src="../../pictures/b17.jpg" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-2">
+                    <div class="box-2-collection">
+                       
+                        <div class="term-4">
+                            <div class="inner-tags">
+                            </div>
+                            <img src="../../pictures/banner5.jpeg" alt="">
+                        </div>
+                        <div class="term-3">
+                            <div class="inner-tags">
+                                <h1 class="special-font"  style="text-align: center;font-size:40px; font-style: oblique; margin-top:20px;">Dress to<br> Impress!
+                                </h1>
+                            </div>
+                            <img src="../../pictures/banner4 (2).jpg" alt="">
+                        </div>
+                       
+                        <div class="term-6">
+                            <div class="inner-tags" style="margin-left: 0px;">
+                                <h2>Perfect Styles <br>for<br> Couples</h2>
+                            </div>
+                            <img src="../../pictures/b4.jpg" alt="">
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+    </section>
+    <section class="grid-box" id="newproducts">
+        <div class="grid-boc-container">
+            <h1 style="text-align: center;">Time for Newsletter</h1>
+            <input type="text" style="padding: 5px ;">
+            <button>
+                Submit
+            </button>
+        </div>
+
+
+    </section>
+    <section class="footer" >
+        <div class="grid-box-footer" >
+            <div class="grid-footer-container" style="margin-left: 0px;">
+                <div class="logo">
+                    <img src="../../pictures/logobg.png"      class="logo"        alt="">
+                </div>
+                <div class="quick-links">
+                    <h2>Quick Links</h2>
+                    <ul>
+                        <li> <a href="./index.html">
+                                <span>Home</span>
+                            </a></li>
+
+                        <li> <a href="./contact.html">
+                                <span>Connect</span>
+                            </a></li>
+                            <li>
+                                <a href="./product.html">
+                                    <span>Products</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="./about.html">
+                                    <span>About</span>
+                                </a>
+                            </li>
+                    </ul>
+                </div>
+                <div class="quick-links">
+                    <h2 style="text-align: center;">Contact</h2>
+                    <ul class="contact-links">
+                        <li>
+                            <p>+91 8072624335</p>
+                        </li>
+                        <li>
+                            <p>+91 8072624335</p>
+                        </li>
+                        <li>ClassyCloset@gmail.com</li>
+                    </ul>
+                </div>
+                <div class="quick-links">
+                    <h2>Quick Links</h2>
+                    <ul>
+                        <li> <a href="#">
+                                <span>Faq</span>
+                            </a></li>
+
+                        <li> <a href="#">
+                                <span>Support</span>
+                            </a></li>
+                            <li>
+                                <a href="#newsletter">
+                                    <span>Newsletter</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="./product.html">
+                                    <span>Products</span>
+                                </a>
+                            </li>
+                    </ul>
+                </div>
+
+            </div>
+        </div>
+
+    </section>
+    <!-- Bootstrap JS and Popper.js -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"></script>
+
+
+
+
+    
+    <script>
+
+const isLoggedIn = true; // Change this value to test
+
+// Display the cart icon only if the user is logged in
+const cartIcon = document.getElementById("cartIcon");
+if (isLoggedIn) {
+    cartIcon.style.display = "inline"; // Show the cart icon
+}
+
+function redirectToProductDetails(productId) {
+    window.location.href = `./detailsproduct.html?id=${productId}`;
+}
+function toggleSidebar() {
+            const sidebar = document.querySelector('.sidebar');
+            sidebar.classList.toggle('open'); // Adds/removes the "open" class
+        }
+
+
+        function redirectToProductDetails(productId) {
+    window.location.href = `./detailsproduct.html?id=${productId}`;
+}
+
+        // Particle animation script
+        const canvas = document.querySelector('.particles');
+        const ctx = canvas.getContext('2d');
+        const particlesArray = [];
+        const numberOfParticles = 100;
+        canvas.width = window.innerWidth;
+        canvas.height = window.innerHeight;
+
+        class Particle {
+            constructor(x, y, directionX, directionY, size, color) {
+                this.x = x;
+                this.y = y;
+                this.directionX = directionX;
+                this.directionY = directionY;
+                this.size = size;
+                this.color = color;
+            }
+
+            // Draw method to create each particle
+            draw() {
+                ctx.beginPath();
+                ctx.arc(this.x, this.y, this.size, 0, Math.PI * 2, false);
+                ctx.fillStyle = '#ffffff';
+                ctx.fill();
+            }
+
+            // Update method to update particle's position
+            update() {
+                if (this.x > canvas.width || this.x < 0) {
+                    this.directionX = -this.directionX;
+                }
+                if (this.y > canvas.height || this.y < 0) {
+                    this.directionY = -this.directionY;
+                }
+                this.x += this.directionX;
+                this.y += this.directionY;
+                this.draw();
+            }
+        }
+
+        // Initialize particles
+        function init() {
+            for (let i = 0; i < numberOfParticles; i++) {
+                let size = (Math.random() * 5) + 1;
+                let x = (Math.random() * (innerWidth - size * 2)) + size;
+                let y = (Math.random() * (innerHeight - size * 2)) + size;
+                let directionX = (Math.random() * 0.4) - 0.2;
+                let directionY = (Math.random() * 0.4) - 0.2;
+                let color = '#ffffff';
+
+                particlesArray.push(new Particle(x, y, directionX, directionY, size, color));
+            }
+        }
+
+        // Animation loop
+        function animate() {
+            requestAnimationFrame(animate);
+            ctx.clearRect(0, 0, innerWidth, innerHeight);
+
+            for (let i = 0; i < particlesArray.length; i++) {
+                particlesArray[i].update();
+            }
+        }
+
+        init();
+        animate();
+
+        window.addEventListener('resize', function () {
+            canvas.width = innerWidth;
+            canvas.height = innerHeight;
+            init();
+        });
+
+
+
+        document.addEventListener("DOMContentLoaded", function () {
+  const openBtn = document.getElementById("open"); // Assuming 'open' is the h2 element
+  const closeBtn = document.getElementById("close"); // Assuming the 'x' icon is the i element
+  const navBar = document.getElementById("navbar");
+
+  // Function to open navbar
+  openBtn.addEventListener("click", function () {
+    navBar.style.transition = "transform 0.5s ease-in-out";
+    navBar.style.transform = "translateX(0)"; // Move to visible position
+  });
+
+  // Function to close navbar
+  closeBtn.addEventListener("click", function () {
+    navBar.style.transition = "transform 0.5s ease-in-out";
+    navBar.style.transform = "translateX(-100%)"; // Move out of view
+  });
+});
+    </script>
+</body>
+
+</html>

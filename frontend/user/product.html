@@ -1,0 +1,530 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Section</title>
+    <!-- Bootstrap 5 CSS link -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <!-- Custom Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,opsz,wght@0,6..96,400..900;1,6..96,400..900&display=swap"
+        rel="stylesheet">
+
+    <!-- Font Awesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.8.1/font/bootstrap-icons.min.css">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="../styling/style.css">
+<link rel="stylesheet" href="../styling/style2.css">
+
+<style>
+   .products-container-links ul li  a.active {
+  color: white; /* Text color */
+  background-color:coral;
+  /* Background color */
+  text-decoration: none;
+  
+}
+.products-box h4{
+    margin-top:5px;
+}
+.box-1 img{
+    overflow: hidden;
+}
+.filter-size ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.filter-size {
+
+display: flex;
+justify-content:space-between;
+align-items:self-start;
+flex-direction: column;
+}
+.filter-size input{
+margin-top: 10px;
+margin-left: 20px;
+}
+.filter-price {
+
+    display: flex;
+    justify-content:space-between;
+    align-items:self-start;
+    flex-direction: column;
+}
+.filter-price input{
+    margin-top: 10px;
+    margin-left: 20px;
+}
+.sidenav h3{
+    margin-top: 10px;
+}
+</style>
+   
+</head>
+
+<body>
+
+    <section class="header-product">
+        <nav class="forlap">
+            <h1>
+                ClassyCloset
+            </h1>
+            <ul>
+                <li><a href="./index.html">Home</a></li>
+                <li><a href="./product.html">Products</a></li>
+                <li><a href="./about.html">About</a></li>
+                <li><a href="./contact.html">Connect</a></li>
+            </ul>
+            <div class="social-container">
+                <!-- Search Icon -->
+                <i class="bi bi-search"></i>
+                <a id="cartIcon" href="./cart.html" style="color:black; display:block;">
+                    <i class="bi bi-cart"></i>
+                </a>
+                                    <!-- Profile Icon -->
+                <a href="./frontend/login.html"><i  style="color: black;"   class="bi bi-person"></i></a>
+            </div>
+        </nav>
+        <nav class="forphone">
+            <h1  class="logophone">
+                ClassyCloset
+            </h1>
+            <i      class="bi bi-list" id="open"  class="bar"    style="font-size: 34px; margin-top: 16px;
+            margin: 10px; "></i>
+            <ul id="navbar" >
+                <div>
+                    <i class="bi bi-x-lg" style="font-size: larger;font-weight: 900;" id="close"></i>
+                  </div>
+                <li><a href="./index.html">Home</a></li>
+                <li><a href="./product.html">Products</a></li>
+                <li><a href="./about.html">About</a></li>
+                <li><a href="./contact.html">Connect</a></li>
+            </ul>
+        </nav>
+<div class="sidebar">
+  
+        <!-- Filter by Category -->
+
+      
+
+        <!-- Filter by Size -->
+        <h3 style="margin-top: 20px;">Filter by Size</h3>
+        <div class="filter-size">
+            <label class="active-size"><input type="radio" name="size" value="all" onclick="setSize('all', this)" checked> All Sizes</label>
+            <label><input type="radio" name="size" value="S" onclick="setSize('S', this)"> Small</label>
+            <label><input type="radio" name="size" value="M" onclick="setSize('M', this)"> Medium</label>
+            <label><input type="radio" name="size" value="L" onclick="setSize('L', this)"> Large</label>
+        </div>
+
+        <!-- Filter by Price -->
+        <h3 style="margin-top: 20px;">Filter by Price</h3>
+        <div class="filter-price">
+            <label><input type="radio" name="price" value="0-50" onclick="setPriceRange(0, 50)"> Under $50</label>
+            <label><input type="radio" name="price" value="51-100" onclick="setPriceRange(51, 100)"> $51 - $100</label>
+            <label><input type="radio" name="price" value="101-200" onclick="setPriceRange(101, 200)"> $101 - $200</label>
+            <label><input type="radio" name="price" value="201-Infinity" onclick="setPriceRange(201, Infinity)"> Above $200</label>
+        </div>
+
+</div>
+
+<!--     <a href="#" onclick="sortProducts('low-price')">Lowest to Highest</a>
+    <a href="#" onclick="sortProducts('high-price')">Highest to Lowest</a> -->
+    </section>
+    <section class="Products">
+        <div class="products-container">
+
+            <h1 class="headings" style="margin-top: 20px;">Our Products</h1>
+          <div class="filter" style="margin-left: 80px;"> 
+            <button    onclick="toggleSidebar()" id="openButton">
+                <i class="bi bi-funnel-fill"></i> Filter
+            </button>
+     
+        </div>
+            <div class="products-container-links">
+           
+            <ul>
+              
+                <li><a href="#" class="active-category" data-category="all" onclick="setCategory('all', this)">All</a></li>
+                <li><a href="#" data-category="women" onclick="setCategory('women', this)">Women</a></li>
+                <li><a href="#" data-category="men" onclick="setCategory('men', this)">Men</a></li>
+            </ul>
+        
+           </div>
+            <div class="product-container">
+                <div class="products-box">
+                    <div class="box-1 men"data-category="men" data-price="350" data-size="M"  data-id = '8' data-new="true" onclick= "redirectToProductDetails(8)">
+                        <img src="../../pictures/boy7.jpeg "   alt="">
+                        <h4>Skateboard t shirt</h4>
+                        <h6>For Men</h6>
+                        <div class="star-rating">
+                            <span class="star">&#9733;</span>
+                            <span class="star">&#9733;</span>
+                            <span class="star">&#9733;</span>
+                            <span class="star">&#9733;</span>
+                            <span class="star">&#9733;</span>
+                        </div>
+                        <div class="cart-container">
+                            <div class="price">
+                                <h5>$350</h5>
+                            </div>
+                            <div class="cart">
+                                <button>Add</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="box-1 women" data-category="women" data-price="550" data-size="L"  data-id = '7' data-new="true" onclick= "redirectToProductDetails(7)">
+                        <img src="../../pictures/boy8.jpeg" style="overflow: hidden;" alt="">
+                        <h4>Nasa T-shirt</h4>
+                        <h6>For Women</h6>
+                        <div class="star-rating">
+                            <span class="star">&#9733;</span>
+                            <span class="star">&#9733;</span>
+                            <span class="star">&#9733;</span>
+                            <span class="star">&#9733;</span>
+                            <span class="star">&#9733;</span>
+                        </div>
+                        <div class="cart-container">
+                            <div class="price">
+                                <h5>$550</h5>
+                            </div>
+                            <div class="cart">
+                                <button>add</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="box-1 men" data-category="men" data-price="650" data-size="L"  data-id = '6' data-new="true" onclick= "redirectToProductDetails(6)">
+                        <img src="../../pictures/boy9.jpeg" style="overflow: hidden;" alt="">
+                        <h4>Hope Brush T-shirt</h4>
+                        <h6>For Men</h6>
+                        <div class="star-rating">
+                            <span class="star">&#9733;</span>
+                            <span class="star">&#9733;</span>
+                            <span class="star">&#9733;</span>
+                            <span class="star">&#9733;</span>
+                            <span class="star">&#9733;</span>
+                        </div>
+                        <div class="cart-container">
+                            <div class="price">
+                                <h5>$650</h5>
+                            </div>
+                            <div class="cart">
+                                <button>add</button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="box-1 women" data-category="women" data-price="200" data-size="M"  data-id = '4' data-new="true" onclick= "redirectToProductDetails(4)">
+                        <img src="../../pictures/boy10.jpeg" style="overflow: hidden;"  alt="">
+                        
+                        <h4>Bold Bend T-shirt</h4>
+                        <h6>For Women</h6>
+                        <div class="star-rating">
+                            <span class="star">&#9733;</span>
+                            <span class="star">&#9733;</span>
+                            <span class="star">&#9733;</span>
+                            <span class="star">&#9733;</span>
+                            <span class="star">&#9733;</span>
+                        </div>
+                        <div class="cart-container">
+                            <div class="price">
+                                <h5>$200</h5>
+                            </div>
+                            <div class="cart">
+                                <button>add</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="box-1 men" data-category="men" data-price="600" data-size="L"  data-id = '3' data-new="true" onclick= "redirectToProductDetails(3)">
+                        <img src="../../pictures/boy12.jpeg"  style="overflow: hidden;" alt="">
+                        <h4>Panda T-shirt</h4>
+                        <h6>For Men</h6>
+                        <div class="star-rating">
+                            <span class="star">&#9733;</span>
+                            <span class="star">&#9733;</span>
+                            <span class="star">&#9733;</span>
+                            <span class="star">&#9733;</span>
+                            <span class="star">&#9733;</span>
+                        </div>
+                        <div class="cart-container">
+                            <div class="price">
+                                <h5>$600</h5>
+                            </div>
+                            <div class="cart">
+                                <button>add</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="box-1 men" data-category="men" data-price="400" data-size="M"  data-id = '2' data-new="true" onclick= "redirectToProductDetails(2)">
+                        <img src="../../pictures/f1.jpg" alt="">
+                        <h4>Abstract Pattern Shirt</h4>
+                        <h6>For Men</h6>
+                        <div class="star-rating">
+                            <span class="star">&#9733;</span>
+                            <span class="star">&#9733;</span>
+                            <span class="star">&#9733;</span>
+                            <span class="star">&#9733;</span>
+                            <span class="star">&#9733;</span>
+                        </div>
+                        <div class="cart-container">
+                            <div class="price">
+                                <h5>$400</h5>
+                            </div>
+                            <div class="cart">
+                                <button>add</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="box-1 men" data-category="men" data-price="500" data-size="L"  data-id = '1' data-new="true" onclick= "redirectToProductDetails(1)">
+                        <img src="../../pictures/boy3.jpeg"   style="overflow: hidden;" alt="">
+                        <h6>For Men</h6>
+                        <h4>Geometri lion T-shirt</h4>
+                        <div class="star-rating">
+                            <span class="star">&#9733;</span>
+                            <span class="star">&#9733;</span>
+                            <span class="star">&#9733;</span>
+                            <span class="star">&#9733;</span>
+                            <span class="star">&#9733;</span>
+                        </div>
+                        <div class="cart-container">
+    
+                            <div class="price">
+                                <h5>500$</h5>
+                            </div>
+                            <div class="cart">
+                                <button>add</button>
+                            </div>
+                        </div>
+    
+                    </div>
+                 
+                
+                    
+                </div>
+
+               
+                
+            </div>
+        </div>
+
+
+
+
+
+
+
+    </section>
+    <section class="footer" >
+        <div class="grid-box-footer">
+            <div class="grid-footer-container">
+                <div class="logo">
+                    <img src="./logobg.png"      class="logo"        alt="">
+                </div>
+                <div class="quick-links">
+                    <h2>Quick Links</h2>
+                    <ul>
+                        <li> <a href="#">
+                                <span>Home</span>
+                            </a></li>
+
+                        <li> <a href="#">
+                                <span>Connect</span>
+                            </a></li>
+                            <li>
+                                <a href="#">
+                                    <span>products</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <span>About</span>
+                                </a>
+                            </li>
+                    </ul>
+                </div>
+                <div class="quick-links">
+                    <h2 style="text-align: center;">Contact</h2>
+                    <ul class="contact-links">
+                        <li>
+                            <p>+91 8072624335</p>
+                        </li>
+                        <li>
+                            <p>+91 8072624335</p>
+                        </li>
+                        <li>ClassyCloset@gmail.com</li>
+                    </ul>
+                </div>
+                <div class="quick-links">
+                    <h2>Quick Links</h2>
+                    <ul>
+                        <li> <a href="#">
+                                <span>Faq</span>
+                            </a></li>
+
+                        <li> <a href="#">
+                                <span>Support</span>
+                            </a></li>
+                            <li>
+                                <a href="#">
+                                    <span>Newsletter</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <span>Products</span>
+                                </a>
+                            </li>
+                    </ul>
+                </div>
+
+            </div>
+        </div>
+
+    </section>
+
+    <script>
+ function redirectToProductDetails(productId) {
+    window.location.href = `./detailsproduct.html?id=${productId}`;
+}
+function toggleSidebar() {
+            const sidebar = document.querySelector('.sidebar');
+            sidebar.classList.toggle('open'); // Adds/removes the "open" class
+        }
+
+
+
+
+
+
+
+
+        let selectedCategory = 'all';
+        let selectedSize = 'all';
+        let selectedMinPrice = 0;
+        let selectedMaxPrice = Infinity;
+
+        // Function to set the selected category
+        function setCategory(category, element) {
+            selectedCategory = category;
+
+            // Highlight the active category link
+            const categoryLinks = document.querySelectorAll('.sidenav ul a');
+            categoryLinks.forEach(link => link.classList.remove('active-category'));
+            element.classList.add('active-category');
+
+            filterProducts();
+        }
+
+        // Function to set the selected size
+        function setSize(size, element) {
+            selectedSize = size;
+
+            // Highlight the active size label
+            const sizeLabels = document.querySelectorAll('.filter-size label');
+            sizeLabels.forEach(label => label.classList.remove('active-size'));
+            element.parentElement.classList.add('active-size');
+
+            filterProducts();
+        }
+
+        // Function to set cost range
+        function setPriceRange(minPrice, maxPrice) {
+            selectedMinPrice = minPrice;
+            selectedMaxPrice = maxPrice;
+            filterProducts();
+        }
+
+        // Function to filter products based on category, size, and cost
+        function filterProducts() {
+            const products = document.querySelectorAll('.products-box .box-1');
+            products.forEach(product => {
+                const matchesCategory = selectedCategory === 'all' || product.classList.contains(selectedCategory);
+                const matchesSize = selectedSize === 'all' || product.getAttribute('data-size') === selectedSize;
+                const productPrice = parseFloat(product.getAttribute('data-price'));
+                const matchesCost = productPrice >= selectedMinPrice && productPrice <= selectedMaxPrice;
+
+                product.style.display = matchesCategory && matchesSize && matchesCost ? 'block' : 'none';
+            });
+        }
+
+        filterProducts();
+      
+
+        document.addEventListener("DOMContentLoaded", function () {
+  const openBtn = document.getElementById("open"); // Assuming 'open' is the h2 element
+  const closeBtn = document.getElementById("close"); // Assuming the 'x' icon is the i element
+  const navBar = document.getElementById("navbar");
+
+  // Function to open navbar
+  openBtn.addEventListener("click", function () {
+    navBar.style.transition = "transform 0.5s ease-in-out";
+    navBar.style.transform = "translateX(0)"; // Move to visible position
+  });
+
+  // Function to close navbar
+  closeBtn.addEventListener("click", function () {
+    navBar.style.transition = "transform 0.5s ease-in-out";
+    navBar.style.transform = "translateX(-100%)"; // Move out of view
+  });
+});
+function filterProducts() {
+    const products = document.querySelectorAll('.products-box .box-1');
+    const noProductMessage = document.getElementById('noProductMessage') || createNoProductMessage();
+    let anyProductVisible = false;
+
+    products.forEach(product => {
+        const matchesCategory = selectedCategory === 'all' || product.classList.contains(selectedCategory);
+        const matchesSize = selectedSize === 'all' || product.getAttribute('data-size') === selectedSize;
+        const productPrice = parseFloat(product.getAttribute('data-price'));
+        const matchesCost = productPrice >= selectedMinPrice && productPrice <= selectedMaxPrice;
+
+        if (matchesCategory && matchesSize && matchesCost) {
+            product.style.display = 'block';
+            anyProductVisible = true;
+        } else {
+            product.style.display = 'none';
+        }
+    });
+
+    // Show or hide the no-product message
+    noProductMessage.style.display = anyProductVisible ? 'none' : 'block';
+}
+
+// Helper function to create the no-product message dynamically
+function createNoProductMessage() {
+    const noProductMessage = document.createElement('h3');
+    noProductMessage.id = 'noProductMessage';
+    noProductMessage.innerText = 'No products available';
+    noProductMessage.style.textAlign = 'center';
+    noProductMessage.style.color = 'red';
+    noProductMessage.style.display = 'none'; // Hidden by default
+
+    const productsBox = document.querySelector('.products-box');
+    if (productsBox) {
+        productsBox.appendChild(noProductMessage);
+    }
+    return noProductMessage;
+}
+
+
+    </script>
+
+</body>
+
+
+
+
+</html>
+
+

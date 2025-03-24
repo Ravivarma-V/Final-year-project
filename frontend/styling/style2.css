@@ -1,0 +1,241 @@
+
+
+
+.header-product ul li {
+  display: inline;
+  margin: 20px;
+  padding: 10px;
+}
+
+.header-product ul li:hover {
+    border-radius: 5px;
+    background-color: #cacaca;
+  }
+body{
+    background-color:#E8EBE9;
+  }
+
+
+.header-product ul li a {
+  font-size: large;
+  text-decoration: none;
+
+  color: black;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: 200px;
+}
+
+.header-product a:hover {
+  color: #242424;
+}
+/* Left Side Navigation Bar */
+
+
+
+        .box-1 {
+            display: none;
+        }
+
+        .box-1.men,
+        .box-1.women,
+        .box-1.kids,
+        .box-1.all {
+            display: flex;
+        }
+
+        .products-container ul li {
+            display: inline;
+            margin-right: 20px;
+            padding: 17PX 0PX;
+            overflow: hidden;
+
+          
+        }
+
+       .products-container ul li a {
+            text-decoration: none;
+            color: black;
+            cursor: pointer;
+            padding:15px 40px;
+            border: 1px solid black;
+        }
+
+        .products-container-links {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-top: 50px;
+        }
+
+        .products-container ul li:hover {
+            background-color: coral;
+            overflow: hidden;
+
+        }
+
+        .products-container ul li a:hover {
+            color: black;
+            transform: scale(1.1);
+
+
+        }
+
+        .products-conatiner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 40px;
+  margin-top:100px ;
+
+}
+
+
+.products-box {
+  padding: 50px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, auto));
+  grid-gap: 40px;
+  margin-left: 200px;
+  justify-content: space-around;
+}
+/* General styles for the sidebar */
+/* General styles for the sidebar */
+/* General styles for the sidebar */
+.sidebar {
+    width: 250px;
+    height: 670px;
+    padding: 20px;
+    position:fixed;
+    top: 70px;
+    left: 0%;
+    background-color:white;
+    border: 1px solid black;
+    box-shadow: 0 4px 8px rgba(0, 0, 0,0.4); 
+}
+.sidebar ul{
+    padding-left: 40px;
+    margin-bottom: 80px;
+}
+
+
+/* Styles for headers */
+.sidebar h2, .sidebar h4 {
+    color: #333;
+    margin-bottom: 10px;
+}
+
+/* Default styles for links */
+.sidebar a {
+    display:inline-block;
+    color: black;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+/* Additional styling for hover effect */
+.sidebar a:hover {
+    color:black;
+}
+
+/* Checkbox-like appearance for links */
+.sidebar a::before {
+    content: "☐"; /* Empty checkbox icon */
+    display: inline-block;
+    margin-right: 10px;
+    font-family: 'Bootstrap Icons';
+}
+
+/* Ticked checkbox appearance for active links */
+.sidebar a.active::before {
+    content: "☑"; /* Ticked checkbox icon */
+    color:black;
+}
+.header-product nav ul li:hover{
+    background-color:#cacaca;
+}
+.filter {
+    display: none;
+}
+.grid-box-footer{
+    margin-left: 150px;
+}
+
+
+@media (max-width:700px) {
+    .product-container{
+    margin-top: 10px;
+
+    }
+    .grid-box-footer{
+        margin-left: 0px;
+    }
+    .products-container ul li {
+        display: inline;
+        margin-right: 20px;
+        padding: 8PX 1PX;
+        overflow: hidden;
+    }
+    
+    .products-container ul li a {
+        display: inline;
+     
+        padding: 10PX 15PX;
+        overflow: hidden;
+    }
+    .products-container-links ul {
+        display: flex;
+    }
+    .filter  {
+        margin-top: 30px;
+display: flex;
+flex-direction: row;
+justify-content:end;
+margin: 10px;
+    }
+    .sidebar{
+        left: -250px; /* Initially hidden */
+        width: 250px;
+        height: 100%;
+        background: #f4f4f4;
+        transition: all 0.3s ease; /* Smooth animation */
+        box-shadow: 2px 0 5px rgba(0, 0, 0, 0.3);
+        z-index: 4;
+        top: 0%;
+    }
+    .sidebar.open {
+        left: 0; /* Slide in */
+    }
+
+    .buttonclose {
+        position: absolute;
+        top: 10px;
+        right: -50px; /* Positioned outside the sidebar */
+        padding: 10px;
+        background: #f4f4f4;
+        border: none;
+        cursor: pointer;
+        box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+    }
+    .forphone{
+        top: 0%;
+        margin: 0;
+    }
+    .header-product ul{
+        top: 0%;
+    }
+    .products-box {
+        margin-left: 0px;
+    }
+
+}
+
+
+
+
+
+
+/* Additional styling for hover effect */
+
+
+
+        

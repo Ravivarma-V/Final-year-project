@@ -1,0 +1,193 @@
+[
+    {
+        "id": 1,
+        "name": "Geometric Lion T-shirt",
+        "price": 500,
+        "sizes": ["S", "M", "L", "XL"],
+        "image": "../../pictures/boy3.jpeg",
+        "quantity": "1",
+        "description": "Classic Crew Neck T-Shirt Unleash your casual style with our Classic Crew Neck T-Shirt. Crafted from 100% premium cotton, this shirt offers superior comfort and breathability for everyday wear. Whether you're dressing up for a casual day out or lounging at home, this versatile piece is your go-to staple. Available in a range of colors and sizes, it effortlessly combines style and comfort."
+    },
+    {
+        "id": 2,
+        "name": "Playful Cartoon Tee",
+        "price": 400,
+        "sizes": ["M", "L", "XL"],
+        "image": "../../pictures/f1.jpg",
+        "quantity": "1",
+        "description": "A vibrant, short-sleeved shirt featuring a lively abstract pattern with floral and geometric elements. Perfect for those who love bold and colorful outfits."
+
+    },
+    {
+        "id": 3,
+        "name": "Panda Vibes T-shirt",
+        "price": 600,
+        "sizes": ["M", "L", "XL"],
+        "image": "../../pictures/boy12.jpeg",
+        "quantity": "1",
+        "description": "Channel laid-back comfort with our Panda Vibes T-Shirt. Featuring a bold and playful panda graphic, this tee is crafted from premium cotton for unbeatable softness and breathability. Perfect for casual outings or a cozy day indoors, it's a wardrobe essential for both comfort and style. Available in multiple sizes, it's a must-have for panda lovers and trendsetters alike!"
+    },
+    {
+        "id": 4,
+        "name": "Golden Bond T-Shirt",
+        "price": 230,
+        "sizes": ["M", "L", "XL"],
+        "image": "../../pictures/boy10.jpeg",
+        "quantity": "1",
+        "description": "Celebrate the beauty of connection with our Golden Bond T-Shirt. Featuring a striking design of an adult holding a child against a radiant golden circle, this piece symbolizes love, care, and togetherness. Made from premium fabric, it offers superior comfort and style. Perfect for casual outings or meaningful gift-giving, this T-shirt blends artistry with emotion. Available in all sizes to suit every wearer."
+    },
+    {
+        "id": 5,
+        "name": "Golden Bond T-Shirt",
+        "price": 700,
+        "sizes": ["M", "L", "XL"],
+        "image": "../../pictures/boy10.jpeg",
+        "quantity": "1",
+        "description": "Embrace tranquility with our Japanese Serenity T-Shirt. Featuring an elegant design of a red sun paired with black tree silhouettes and Japanese calligraphy, this t-shirt radiates calm and cultural charm. Made from premium cotton for comfort and durability, it's perfect for casual wear or making a subtle artistic statement. Available in various sizes to suit all styles, it's a timeless piece for those who appreciate refined aesthetics."
+    },
+    {
+        "id": 6,
+        "name": "Hope Brushstroke Tee",
+        "price": 650,
+        "sizes": ["M", "L", "XL"],
+        "image": "../../pictures/boy8.jpeg",
+        "quantity": "1",
+        "description": "Express optimism and creativity with our Hope Brushstroke Tee. Featuring a captivating brushstroke design paired with inspirational text, this t-shirt is a perfect blend of art and motivation. Made from premium-quality cotton, it ensures comfort and durability for everyday wear. Whether you’re stepping out or staying in, this tee adds a touch of positivity to your style. Available in a variety of sizes for everyone to enjoy!."
+    },
+    
+        {
+            "id": 7,
+            "name": "NASA Cartoon T-shirt",
+            "price": 550,
+            "sizes": ["M"],
+            "image": "../../pictures/boy8.jpeg",
+            "quantity": "1",
+            "description": "Embark on a journey of cosmic style with our NASA Cartoon T-shirt. Featuring vibrant space-themed graphics, this tee captures the essence of exploration and fun. Crafted from premium cotton, it ensures comfort and breathability, making it ideal for both adventurous outings and relaxed indoor moments. Available in versatile sizes, it's the perfect piece for space enthusiasts and trendsetters alike."
+          },
+          {
+            "id": 8,
+            "name": "Skateboarding Cartoon T-shirt",
+            "price": 350,
+            "sizes": ["L"],
+            "image": "../../pictures/boy7.jpeg",
+            "quantity": "1",
+            "description": "Get ready to roll with our Skateboarding Cartoon T-shirt. Featuring a fun and dynamic skateboarding graphic, this t-shirt is perfect for showcasing your adventurous spirit. Made with premium cotton for all-day comfort, it's great for casual outings or just hanging out in style. Available in versatile sizes to keep you looking cool and comfortable."
+          },
+          {
+            "id": 9,
+            "name": "White Geometric T-shirt",
+            "price": 650,
+            "sizes": ["XL"],
+            "image": "../../pictures/boy6 (2).jpeg",
+            "quantity": "1",
+            "description": "Step into a world of minimalistic style with our White Geometric T-shirt. Featuring sleek black geometric patterns and clean lines, this tee is perfect for adding a contemporary touch to your outfit. Crafted with premium-quality fabric, it offers superior comfort and durability. Ideal for casual outings or everyday wear, it's available in various sizes to fit your style seamlessly."
+          },
+          {
+            "id": 20,
+            "name": "RedDress With Bow",
+            "price": 550,
+            "sizes": ["s"],
+            "image":"../../pictures/baby 1.jpeg",
+            "quantity": "1",
+            "description":"A beautiful red dress with a large bow at the front, lace details at the hem, and a matching headband."
+          },
+          {
+            "id": 21,
+            "name": "Multicolor Dress",
+            "price": 300,
+            "sizes": ["s"],
+            "image": "../../pictures/baby2.jpeg",
+            "quantity": "1",
+            "description": "A colorful dress with a purple top and a multicolor skirt featuring various patterns."
+        },
+          {
+            "id":22,
+            "name": "Olive Green Shirt",
+            "price": 400,
+            "sizes": ["S"],
+            "image": "../../pictures/baby3.jpeg",
+            "quantity": "1",
+            "description":  "A green dress with white floral patterns and puff sleeves."
+          },
+          {
+            "id": 23,
+            "name": "Purple Dress with Bow",
+            "price": 800,
+            "sizes": ["S"],
+            "image": "../../pictures/baby4.jpeg",
+            "quantity": "1",
+            "description": "A lovely purple dress with puff sleeves, floral embroidery, and a large bow at the waist."
+          },
+          {
+            "id": 24,
+            "name": "Olive Green Shirt",
+            "price": 900,
+            "sizes": ["S","M"],
+            "image": "../../pictures/girl1.jpeg",
+            "quantity": "1",
+            "description": "An olive green shirt with a simple design and long sleeves."
+        },
+          {
+            "id": 25,
+            "name": "Striped T Shirt",
+            "price": 500,
+            "sizes": ["XL","L","M"],
+            "image": "../../pictures/girl2.jpeg",
+            "quantity": "1",
+             "description": "A striped shirt with a knot at the front and long sleeves."
+          },
+          {
+            "id": 26,
+            "name": "Mounted Print Shirt",
+            "price": 650,
+            "sizes": ["XL"],
+            "image": "../../pictures/boy1.jpeg",
+            "quantity": "1",
+            "description": "Step into a world of minimalistic style with our White Geometric T-shirt. Featuring sleek black geometric patterns and clean lines, this tee is perfect for adding a contemporary touch to your outfit. Crafted with premium-quality fabric, it offers superior comfort and durability. Ideal for casual outings or everyday wear, it's available in various sizes to fit your style seamlessly."
+          },
+          {
+            "id": 27,
+            "name": "Yellow Hawaiian Shirt",
+            "price": 650,
+            "sizes": ["XL"],
+            "image": "../../pictures/f1.jpg",
+            "quantity": "1",
+            "description": "A yellow Hawaiian shirt with colorful patterns including flowers and deer."
+          },
+          {
+            "id": 28,
+            "name": "Itachi T-shirt",
+            "price": 450,
+            "sizes": ["XL","L"],
+            "image": "../../pictures/boy2.jpeg",
+            "quantity": "1",
+            "description": "Channel the mysterious allure of Itachi Uchiha with this premium T-shirt featuring the iconic Sharingan eye design. The crisp white fabric showcases a minimalist, yet striking, portrayal of Itachi, capturing the essence of his wisdom and tragic heroism. Made with high-quality cotton, this shirt ensures comfort while showing off your love for one of Naruto’s most unforgettable characters."
+          },
+          {
+            "id": 29,
+            "name": "Nautical Explorer Tee Shirt",
+            "price": 200,
+            "sizes": ["XL","L","M"],
+            "image": "../../pictures/boy4.jpeg",
+            "quantity": "1",
+            "description": "Sail away with this white T-shirt that carries a unique nautical theme. The design showcases detailed sketches of ships, compasses, and maritime symbols, invoking a spirit of adventure and discovery. Lightweight and breathable, it’s ideal for explorers and ocean lovers alike."
+          },
+          {
+            "id": 30,
+            "name": "Tropical Serenity Tee",
+            "price": 250,
+            "sizes": ["XL","L","M"],
+            "image": "../../pictures/boy5.jpeg",
+            "quantity": "1",
+             "description": "Relax in style with this white T-shirt that captures the essence of a tropical getaway. Featuring vibrant palm trees, a picturesque sunset, and an enchanting script in a foreign language, this tee transports you to a serene paradise every time you wear it. A versatile piece for vacations or casual hangouts."
+          }
+
+
+
+
+         
+
+
+]
+
+    

@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Detail</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        .navbar {
+            position: fixed;
+            top: 0;
+            right: 0;
+            margin: 10px;
+        }
+        .cart-icon {
+            margin: 10px;
+            position: relative;
+            cursor: pointer;
+            color: black;
+            font-size: 24px;
+        }
+        .cart-count {
+            position: absolute;
+            top: -5px;
+            right: -10px;
+            background-color: red;
+            color: white;
+            font-size: 12px;
+            width: 18px;
+            height: 18px;
+            border-radius: 50%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .product-detail {
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+            background-color: #fff;
+            border: 1px solid #ccc;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            margin: 50px auto;
+            margin-top: 170px;
+            padding: 30px;
+            width: 80%;
+        }
+        .product-image img {
+            width: 350px;
+            height: auto;
+        }
+        .product-info {
+            margin-left: 20px;
+        }
+        .product-info h1 {
+            font-size: 24px;
+            margin-bottom: 10px;
+            color: #333;
+        }
+        .alert-message {
+            margin: 10px 0;
+            color: green;
+            font-size: 13px;
+            text-align: center;
+            display: none;
+        }
+        .alert-error {
+            color: red;
+        }
+        .product-info p {
+            font-size: 18px;
+            margin: 10px 0;
+            color: #555;
+        }
+        .product-info select, .product-info button {
+            padding: 9px;
+            font-size: 16px;
+            margin-top: 10px;
+        }
+        .product-info button {
+            background-color: black;
+            color: white;
+            border: none;
+            cursor: pointer;
+            border-radius: 5px;
+            display: flex;
+            justify-content: center;
+            margin-top: 30px;
+            align-items: center;
+        }
+        .product-info button i {
+            margin-right: 10px;
+        }
+        .product-info button:hover {
+            background-color: gray;
+        }
+        @media screen and (max-width: 768px) {
+            .product-detail {
+                flex-direction: column;
+                padding-bottom: 30px;
+                justify-content: normal;
+                margin-top: 30px;
+                width: 95%;
+            }
+            .product-image img {
+                max-width: 250px;
+                margin-top: 20px;
+                margin-bottom: 30px;
+            }
+            .product-info {
+                margin-left: 0;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+                text-align: center;
+            }
+            .product-info button {
+                margin-bottom: 50px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="cart-container">
+        <div class="navbar" style="display: none;">
+            <div class="cart-icon" onclick="redirectToCart()">
+                <i class="fas fa-shopping-cart"></i>
+                <div class="cart-count" id="cartCount">0</div>
+            </div>
+        </div>
+        <div class="product-detail">
+            <div class="product-image">
+                <img id="productImage" src="" alt="Product Image">
+            </div>
+            <div class="product-info">
+                <h1 id="productName"></h1>
+                <h3 class="alert-message" id="alertMessage"></h3>
+                <p id="productPrice"></p>
+                <p id="productDescription"></p>
+
+                <label for="sizeSelector">Choose Size:</label>
+                <select id="sizeSelector">
+                    <option value="" disabled selected>Select a size</option>
+                </select>
+                <button onclick="addToCart()">
+                    <i class="fas fa-shopping-cart"></i> Add to Cart
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        let cart = JSON.parse(localStorage.getItem('cart')) || [];
+        document.getElementById('cartCount').innerText = cart.length;
+
+        const urlParams = new URLSearchParams(window.location.search);
+        const productId = urlParams.get('id');
+
+        fetch('product.json')
+            .then(response => response.json())
+            .then(products => {
+                const product = products.find(p => p.id == productId);
+                if (!product) {
+                    console.error('Product not found!');
+                    return;
+                }
+
+                // Populate product details
+                document.getElementById('productImage').src = product.image;
+                document.getElementById('productName').innerText = product.name;
+                document.getElementById('productPrice').innerText = `Price: $${product.price}`;
+                document.getElementById('productDescription').innerText = product.description;
+
+                // Populate size options
+                const sizeSelector = document.getElementById('sizeSelector');
+                product.sizes.forEach(size => {
+                    const option = document.createElement('option');
+                    option.value = size;
+                    option.innerText = size;
+                    sizeSelector.appendChild(option);
+                });
+
+                // Save current product in global scope
+                window.currentProduct = product;
+            })
+            .catch(error => console.error('Error fetching product data:', error));
+
+        function addToCart() {
+            const product = window.currentProduct;
+            const size = document.getElementById('sizeSelector').value;
+
+            const alertMessage = document.getElementById('alertMessage');
+
+            if (!size) {
+                alertMessage.innerText = "Please select a size before adding to the cart.";
+                alertMessage.classList.add('alert-error');
+                showAlertMessage();
+                return;
+            }
+
+            if (product) {
+                const productWithSize = { ...product, size };
+                cart.push(productWithSize);
+                localStorage.setItem('cart', JSON.stringify(cart));
+                document.getElementById('cartCount').innerText = cart.length;
+                alertMessage.innerText = `${product.name} (Size: ${size}) has been added to your cart!`;
+                alertMessage.classList.remove('alert-error');
+                showAlertMessage();
+            } else {
+                alertMessage.innerText = "Product data not available. Please try again.";
+                alertMessage.classList.add('alert-error');
+                showAlertMessage();
+            }
+        }
+
+        function redirectToCart() {
+            window.location.href = './cart.html';
+        }
+
+        function showAlertMessage() {
+            const alertMessage = document.getElementById('alertMessage');
+            alertMessage.style.display = 'block';
+            setTimeout(() => {
+                alertMessage.style.display = 'none';
+            }, 3000);
+        }
+    </script>
+</body>
+</html>

@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Order Details</title>
+    <style>
+        body { font-family: Arial, sans-serif; }
+        form { width: 350px; margin: 0 auto; border: 1px solid black;padding: 10px; }
+        label { display: block; margin-top: 10px; font-weight: bold; }
+        input, textarea {
+            width: 90%;
+            padding: 10px;
+            margin-top: 5px;
+            margin-bottom: 15px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+        button {
+            padding: 10px 20px;
+            background-color: black;
+            color: white;
+            border: none;
+            cursor: pointer;
+            border-radius: 5px;
+            font-size: 16px;
+        }
+        button:hover {
+            background-color: gray;
+        }
+        @media screen and (max-width: 600px) {
+    body {
+        font-size: 12px; /* Adjust font size for small screens */
+    }
+    form {
+        width: 90%; /* Make form responsive */
+    }
+    label {
+        font-size: 14px; /* Adjust label size */
+    }
+    input, textarea {
+        padding: 8px; /* Adjust padding */
+    }
+    button {
+        font-size: 14px; /* Adjust button text size */
+        padding: 8px 16px; /* Adjust button padding */
+    }
+    .form-container {
+        padding: 30px;
+    }
+        }
+    </style>
+</head>
+<body>
+    <h1 style="text-align: center;">Enter Your Details</h1>
+  <div class="form-container">
+    <form id="detailsForm">
+        <label for="username">Username</label>
+        <input type="text" id="username" required>
+
+        <label for="address">Address</label>
+        <textarea id="address" rows="4" required></textarea>
+
+        <label for="email">Email</label>
+        <input type="email" id="email" required>
+
+        <button type="submit">Submit</button>
+    </form>
+  </div>
+
+    <script>
+        document.getElementById('detailsForm').addEventListener('submit', (event) => {
+            event.preventDefault();
+
+            const userDetails = {
+                username: document.getElementById('username').value,
+                address: document.getElementById('address').value,
+                email: document.getElementById('email').value,
+            };
+
+            localStorage.setItem('userDetails', JSON.stringify(userDetails));
+            window.location.href = './oder-details.html';
+        });
+    </script>
+</body>
+</html>
