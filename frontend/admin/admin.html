@@ -200,84 +200,91 @@
     </div>
 
     <script>
-        document.addEventListener('DOMContentLoaded', () => {
-            const userDetails = JSON.parse(localStorage.getItem('userDetails')) || {};
-            let cart = JSON.parse(localStorage.getItem('cart')) || [];
-            const ordersTableBody = document.getElementById('ordersTableBody');
-            const overlay = document.getElementById('overlay');
-            const detailsPopup = document.getElementById('detailsPopup');
-            const popupUsername = document.getElementById('popupUsername');
-            const popupAddress = document.getElementById('popupAddress');
-            const popupEmail = document.getElementById('popupEmail');
-            const closePopupButton = document.getElementById('closePopupButton');
+     document.addEventListener('DOMContentLoaded', () => {
+    const userDetails = JSON.parse(localStorage.getItem('userDetails')) || {};
+    let cart = JSON.parse(localStorage.getItem('cart')) || [];
+    const ordersTableBody = document.getElementById('ordersTableBody');
+    const overlay = document.getElementById('overlay');
+    const detailsPopup = document.getElementById('detailsPopup');
+    const popupUsername = document.getElementById('popupUsername');
+    const popupAddress = document.getElementById('popupAddress');
+    const popupEmail = document.getElementById('popupEmail');
+    const closePopupButton = document.getElementById('closePopupButton');
 
-            // Check if there are no orders
-            if (cart.length === 0) {
-                ordersTableBody.innerHTML = `<tr><td colspan="10" style="text-align:center;">No orders to display.</td></tr>`;
-                return;
-            }
+    // Check if there are no orders
+    if (cart.length === 0) {
+        ordersTableBody.innerHTML = `<tr><td colspan="10" style="text-align:center;">No orders to display.</td></tr>`;
+        return;
+    }
 
-            // Populate the orders table
-            cart.forEach((product, index) => {
-                const price = typeof product.price === 'string' ? parseFloat(product.price.replace('$', '')) : product.price;
-                const subtotal = price * product.quantity;
+    // Populate the orders table
+    cart.forEach((product, index) => {
+        const price = typeof product.price === 'string' ? parseFloat(product.price.replace('$', '')) : product.price;
+        const subtotal = price * product.quantity;
 
-                const row = document.createElement('tr');
-                row.innerHTML = `
-                    <td>${userDetails.username || 'N/A'}</td>
-                    <td>${product.name}</td>
-                    <td>${product.size}</td>
-                    <td>${product.quantity}</td>
-                    <td>₹${subtotal.toFixed(2)}</td>
-                    <td>${userDetails.address || 'N/A'}</td>
-                    <td id="status-${index}">${product.status || 'Pending'}</td>
-                    <td><button class="showDetailsButton" data-index="${index}">Show Details</button></td>
-                    <td><button class="confirmButton" data-index="${index}">Confirm</button></td>
-                    <td><button class="orderPlacedButton" data-index="${index}">Order Placed</button></td>
-                `;
+        const row = document.createElement('tr');
+        row.innerHTML = `
+            <td>${userDetails.username || 'N/A'}</td>
+            <td>${product.name}</td>
+            <td>${product.size}</td>
+            <td>${product.quantity}</td>
+            <td>₹${subtotal.toFixed(2)}</td>
+            <td>${userDetails.address || 'N/A'}</td>
+            <td id="status-${index}">${product.status || 'Pending'}</td>
+            <td><button class="showDetailsButton" data-index="${index}">Show Details</button></td>
+            <td>
+                <button 
+                    class="confirmButton" 
+                    data-index="${index}" 
+                    ${product.status === 'Order Dispatched' ? 'disabled' : ''}>
+                    ${product.status === 'Order Dispatched' ? 'Confirmed' : 'Confirm'}
+                </button>
+            </td>
+            <td><button class="orderPlacedButton" data-index="${index}">Order Placed</button></td>
+        `;
 
-                ordersTableBody.appendChild(row);
-            });
+        ordersTableBody.appendChild(row);
+    });
 
-            // Add event listener to all confirm buttons
-            document.querySelectorAll('.confirmButton').forEach(button => {
-                button.addEventListener('click', (event) => {
-                    const index = event.target.getAttribute('data-index');
-                    cart[index].status = 'Order Dispatched';
-                    localStorage.setItem('cart', JSON.stringify(cart));
-                    document.getElementById(`status-${index}`).innerText = 'Order Dispatched';
-                    event.target.disabled = true;
-                    event.target.innerText = 'Confirmed';
-                });
-            });
-
-            // Add event listener to all order placed buttons
-            document.querySelectorAll('.orderPlacedButton').forEach(button => {
-                button.addEventListener('click', (event) => {
-                    const index = event.target.getAttribute('data-index');
-                    cart.splice(index, 1); // Remove the order from the cart
-                    localStorage.setItem('cart', JSON.stringify(cart));
-                    location.reload(); // Reload the page to reflect the changes
-                });
-            });
-
-            // Add event listener to all show details buttons
-            document.querySelectorAll('.showDetailsButton').forEach(button => {
-                button.addEventListener('click', () => {
-                    popupUsername.innerHTML = `<strong>Name:</strong> ${userDetails.username || 'N/A'}`;
-                    popupAddress.innerHTML = `<strong>Address:</strong> ${userDetails.address || 'N/A'}`;
-                    popupEmail.innerHTML = `<strong>Email:</strong> ${userDetails.email || 'N/A'}`;
-                    detailsPopup.style.display = 'block';
-                    overlay.style.display = 'block';
-                });
-            });
-
-            // Close popup
-            closePopupButton.addEventListener('click', () => {
-                detailsPopup.style.display = 'none';
-                overlay.style.display = 'none';
-            });
+    // Add event listener to all confirm buttons
+    document.querySelectorAll('.confirmButton').forEach(button => {
+        button.addEventListener('click', (event) => {
+            const index = event.target.getAttribute('data-index');
+            cart[index].status = 'Order Dispatched'; // Update status in cart
+            localStorage.setItem('cart', JSON.stringify(cart)); // Save updated cart
+            document.getElementById(`status-${index}`).innerText = 'Order Dispatched'; // Update status cell
+            event.target.disabled = true; // Disable the button
+            event.target.innerText = 'Confirmed'; // Update button text
         });
+    });
+
+    // Add event listener to all order placed buttons
+    document.querySelectorAll('.orderPlacedButton').forEach(button => {
+        button.addEventListener('click', (event) => {
+            const index = event.target.getAttribute('data-index');
+            cart.splice(index, 1); // Remove the order from the cart
+            localStorage.setItem('cart', JSON.stringify(cart)); // Save updated cart
+            location.reload(); // Reload the page to reflect the changes
+        });
+    });
+
+    // Add event listener to all show details buttons
+    document.querySelectorAll('.showDetailsButton').forEach(button => {
+        button.addEventListener('click', () => {
+            popupUsername.innerHTML = `<strong>Name:</strong> ${userDetails.username || 'N/A'}`;
+            popupAddress.innerHTML = `<strong>Address:</strong> ${userDetails.address || 'N/A'}`;
+            popupEmail.innerHTML = `<strong>Email:</strong> ${userDetails.email || 'N/A'}`;
+            detailsPopup.style.display = 'block';
+            overlay.style.display = 'block';
+        });
+    });
+
+    // Close popup
+    closePopupButton.addEventListener('click', () => {
+        detailsPopup.style.display = 'none';
+        overlay.style.display = 'none';
+    });
+});
     </script>
 </body>
 </html>

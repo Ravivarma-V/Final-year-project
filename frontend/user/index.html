@@ -30,6 +30,27 @@
         margin-top:25px;
         font-size: medium;
     }
+    .cart-icon {
+            margin: 10px;
+            position: relative;
+            cursor: pointer;
+            color: black;
+            font-size: 24px;
+        }
+        .cart-count {
+            position: absolute;
+            top: -5px;
+            right: -10px;
+            background-color: red;
+            color: white;
+            font-size: 12px;
+            width: 18px;
+            height: 18px;
+            border-radius: 50%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
 </style>
 </head>
 
@@ -48,9 +69,10 @@
             <div class="social-container">
                 <!-- Search Icon -->
                 <i class="bi bi-search"></i>
-                <a id="cartIcon" href="./cart.html" style="color:black; display:none;">
-                    <i class="bi bi-cart"></i>
-                </a>
+                <div class="cart-icon" onclick="redirectToCart()">
+                    <i class="fas fa-shopping-cart"></i>
+                    <div class="cart-count" id="cartCount">0</div>
+                </div>
                                     <!-- Profile Icon -->
                 <a href="../user/login.html"><i  style="color: black;"   class="bi bi-person"></i></a>
             </div>
@@ -720,7 +742,11 @@ function toggleSidebar() {
     navBar.style.transform = "translateX(-100%)"; // Move out of view
   });
 });
-    </script>
+
+
+</script>
+<link href="styles.css" rel="stylesheet">
+<script src="global.js"></script>
 </body>
 
 </html>
